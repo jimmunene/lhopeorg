@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kutuhusu",
+    "programs": "Mipango",
+    "help": "Jinsi ya Kusaidia",
+    "contact": "Mawasiliano",
+    "faq": "Maswali",
+    "donate": "Changia Sasa"
+  },
+  "hero": {
+    "title": "Kujenga Madaraja ya Matumaini",
+    "subtitle": "Kusaidia vijana waliathiriwa na kufungwa kwa familia kwa rasilimali, ushauri na matumaini makuu kwa mustakabali mzuri zaidi.",
+    "cta_primary": "Changia Sasa",
+    "cta_secondary": "Jifunze Zaidi"
+  },
+  "about": {
+    "title": "Kuhusu Legacy of Hope",
+    "hero_text": "Legacy of Hope ilianzishwa kwa imani kwamba kila kijana anastahili msaada, bila kujali changamoto zinazokabili familia yao. Tumejitolea kuvunja mizunguko na kujenga mustakabali bora.",
+    "mission_title": "Dhamira Yetu",
+    "mission_text": "Kutoa msaada mkamilifu, rasilimali na matumaini kwa vijana ambao maisha yao yameathiriwa na kufungwa kwa wanafamilia.",
+    "vision_title": "Maono Yetu",
+    "vision_text": "Ulimwengu ambapo kila kijana, bila kujali mazingira ya kifamilia, ana ufikiaji wa msaada na fursa anazohitaji ili astawi.",
+    "story_title": "Hadithi Yetu",
+    "story_p1": "Legacy of Hope ilianza mwaka 2018 wakati kundi la wataalamu wa kazi ya kijamii, vijana walioguswa na mfumo na watetezi wa jamii walipotambua pengo kubwa katika huduma kwa vijana walioathiriwa na kifungo cha familia.",
+    "story_p2": "Kilichoanza kama kikundi kidogo cha msaada huko New York sasa kimekua kuwa shirika la kimataifa linalohudumia jamii Marekani na Kenya. Mipango yetu imeundwa na jamii na kwa ajili ya jamii, kuhakikisha umuhimu wa kitamaduni na ufanisi.",
+    "story_p3": "Leo, tunaendelea kupanua wigo wetu huku tukidumisha ahadi yetu ya msingi ya huduma ya kibinafsi na inayozingatia kiwewe, inayoheshimu uzoefu na uwezo wa kipekee wa kila kijana.",
+    "values_title": "Maadili Yetu",
+    "values_text": "Maadili haya ya msingi yanaongoza kila tunachofanya na kuunda jinsi tunavyohudumia jamii yetu.",
+    "values": {
+      "compassion": {
+        "title": "Huruma",
+        "description": "Tunakaribia kila mwingiliano kwa huruma, uelewa na msaada usio na masharti."
+      },
+      "community": {
+        "title": "Jumuiya",
+        "description": "Tunaamini katika nguvu ya muunganiko na kujenga mitandao ya msaada kwa uponyaji na ukuaji."
+      },
+      "empowerment": {
+        "title": "Uwezeshaji",
+        "description": "Tunalenga kujenga ustahimilivu na kuwasaidia vijana kugundua nguvu na uwezo wao wenyewe."
+      },
+      "inclusion": {
+        "title": "Ujumuishaji",
+        "description": "Tunakaribisha na kusaidia vijana kutoka asili, tamaduni na mazingira yote."
+      },
+      "excellence": {
+        "title": "Ubora",
+        "description": "Tunajitahidi kwa viwango vya juu zaidi katika mipango na huduma zetu."
+      },
+      "growth": {
+        "title": "Ukuaji",
+        "description": "Tumejitolea kujifunza na kuboresha kila mara katika mbinu yetu."
+      }
+    },
+    "team_title": "Timu Yetu",
+    "team_text": "Timu yetu iliyojitolea inaleta pamoja utaalamu na uzoefu tofauti ili kusaidia vijana na familia kwa huruma na taaluma.",
+    "team": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Mkurugenzi Mtendaji",
+        "bio": "Sarah ana uzoefu wa zaidi ya miaka 15 katika kazi ya kijamii na uongozi wa mashirika yasiyo ya faida, akibobea katika utetezi wa vijana na huduma za msaada wa familia."
+      },
+      "michael": {
+        "name": "Dr. Michael Chen",
+        "role": "Mkurugenzi wa Kliniki",
+        "bio": "Mtaalamu wa saikolojia aliyeidhinishwa na uzoefu wa huduma zinazozingatia kiwewe kwa vijana na tiba ya familia."
+      },
+      "amara": {
+        "name": "Amara Okafor",
+        "role": "Mkurugenzi wa Programu Kenya",
+        "bio": "Amara anaongoza shughuli zetu Kenya na ana uelewa mkubwa wa mifumo ya msaada wa kijamii Afrika Mashariki."
+      },
+      "roberto": {
+        "name": "Roberto Martinez",
+        "role": "Mratibu wa Vijana",
+        "bio": "Roberto anaratibu mipango yetu ya uongozi na ana uzoefu binafsi wa kukabiliana na kifungo cha familia akiwa kijana."
+      }
+    },
+    "impact_title": "Mchango Wetu",
+    "impact_text": "Tangu kuanzishwa kwetu, tumepata fursa ya kusaidia mamia ya vijana na familia zao katika nyakati ngumu.",
+    "impact_teens": "Vijana Walioungwa Mkono",
+    "impact_families": "Familia Zilizohudumiwa",
+    "impact_graduation": "Kiwango cha Kujiunga",
+    "impact_positive": "Matokeo Chanya"
+  },
+  "programs": {
+    "title": "Mipango Yetu",
+    "social_work": "Msaada wa Kazi ya Kijamii",
+    "social_work_desc": "Huduma za ushauri na msaada wa kitaalamu zinazotengenezwa kwa vijana wanaokabiliana na changamoto za kifamilia.",
+    "mentoring": "Uongozaji",
+    "mentoring_desc": "Mipango ya uongozaji mmoja kwa mmoja inayounganisha vijana na mifano mizuri.",
+    "empowerment": "Mipango ya Kuwezesha",
+    "empowerment_desc": "Mipango inayolenga kujenga ujasiri, ujuzi wa maisha na mipango ya mustakabali.",
+    "community": "Ushiriki wa Jamii",
+    "community_desc": "Kuunda jamii za msaada ambapo vijana wanaweza kuungana na kushiriki uzoefu."
+  },
+  "contact": {
+    "title": "Wasiliana Nasi",
+    "form_title": "Tutumie ujumbe",
+    "name": "Jina Kamili",
+    "email": "Anwani ya Barua Pepe",
+    "subject": "Mada",
+    "message": "Ujumbe Wako",
+    "submit": "Tuma Ujumbe",
+    "success": "Asante kwa ujumbe wako. Tutawasiliana nawe hivi karibuni!",
+    "error": "Kulikuwa na hitilafu katika kutuma ujumbe wako. Tafadhali jaribu tena."
+  },
+  "waysToHelp": {
+    "volunteer": {
+      "heading": "Jitolee Nasi",
+      "text": "Toa muda wako, ujuzi, na shauku ili kuleta mabadiliko ya moja kwa moja katika maisha ya vijana wanaohitaji msaada na mwongozo wakati wa changamoto."
+    },
+    "partnerships": {
+      "heading": "Shirikiana Nasi",
+      "text": "Mashirika, biashara, na taasisi zinaweza kuongeza athari zao kwa kushirikiana na Legacy of Hope kusaidia dhamira yetu."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

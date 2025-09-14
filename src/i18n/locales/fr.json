@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "programs": "Programmes",
+    "help": "Comment Aider",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "donate": "Faire un Don"
+  },
+  "hero": {
+    "title": "Construire des Ponts d'Espoir",
+    "subtitle": "Soutenir les adolescents affectés par l'incarcération familiale avec des ressources, du mentorat et un espoir inébranlable pour un avenir meilleur.",
+    "cta_primary": "Faire un Don",
+    "cta_secondary": "En Savoir Plus"
+  },
+  "about": {
+    "title": "À Propos de Legacy of Hope",
+    "hero_text": "Legacy of Hope a été fondé sur la conviction que chaque adolescent mérite du soutien, quels que soient les défis auxquels sa famille est confrontée. Nous nous engageons à briser les cycles et à construire des avenirs meilleurs.",
+    "mission_title": "Notre Mission",
+    "mission_text": "Fournir un soutien complet, des ressources et de l'espoir aux adolescents dont la vie a été affectée par l'incarcération de membres de leur famille.",
+    "vision_title": "Notre Vision",
+    "vision_text": "Un monde où chaque adolescent, quelles que soient ses circonstances familiales, a accès au soutien et aux opportunités dont il a besoin pour s'épanouir.",
+    "story_title": "Notre Histoire",
+    "story_p1": "Legacy of Hope a commencé en 2018 lorsqu'un groupe de travailleurs sociaux, de jeunes touchés par le système et de défenseurs communautaires a reconnu une lacune critique dans les services destinés aux adolescents affectés par l'incarcération familiale.",
+    "story_p2": "Ce qui a commencé comme un petit groupe de soutien à New York est devenu une organisation internationale desservant des communautés aux États-Unis et au Kenya. Nos programmes sont conçus par et pour la communauté, garantissant la pertinence culturelle et l'efficacité.",
+    "story_p3": "Aujourd'hui, nous continuons d'étendre notre portée tout en maintenant notre engagement fondamental envers des soins personnalisés et axés sur les traumatismes qui honorent l'expérience et le potentiel uniques de chaque adolescent.",
+    "values_title": "Nos Valeurs",
+    "values_text": "Ces valeurs fondamentales guident tout ce que nous faisons et façonnent la façon dont nous servons notre communauté.",
+    "values": {
+      "compassion": {
+        "title": "Compassion",
+        "description": "Nous abordons chaque interaction avec empathie, compréhension et soutien inconditionnel."
+      },
+      "community": {
+        "title": "Communauté",
+        "description": "Nous croyons au pouvoir de la connexion et à la création de réseaux de soutien pour la guérison et la croissance."
+      },
+      "empowerment": {
+        "title": "Autonomisation",
+        "description": "Nous nous concentrons sur le développement de la résilience et aidons les adolescents à découvrir leur propre force et potentiel."
+      },
+      "inclusion": {
+        "title": "Inclusion",
+        "description": "Nous accueillons et soutenons les adolescents de tous horizons, cultures et circonstances."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Nous visons les normes les plus élevées dans nos programmes et services."
+      },
+      "growth": {
+        "title": "Croissance",
+        "description": "Nous nous engageons à un apprentissage et une amélioration continus dans notre approche."
+      }
+    },
+    "team_title": "Notre Équipe",
+    "team_text": "Notre équipe dévouée réunit des expertises diverses et des expériences vécues pour soutenir les adolescents et les familles avec compassion et professionnalisme.",
+    "team": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Directrice Exécutive",
+        "bio": "Sarah a plus de 15 ans d'expérience dans le travail social et la direction d'organisations à but non lucratif, spécialisée dans la défense de la jeunesse et le soutien aux familles."
+      },
+      "michael": {
+        "name": "Dr. Michael Chen",
+        "role": "Directeur Clinique",
+        "bio": "Psychologue clinicien agréé, expert en soins tenant compte des traumatismes pour les adolescents et en thérapie familiale."
+      },
+      "amara": {
+        "name": "Amara Okafor",
+        "role": "Directrice des Programmes au Kenya",
+        "bio": "Amara dirige nos opérations au Kenya et apporte une compréhension approfondie des systèmes de soutien communautaire en Afrique de l'Est."
+      },
+      "roberto": {
+        "name": "Roberto Martinez",
+        "role": "Coordinateur Jeunesse",
+        "bio": "Roberto coordonne nos programmes de mentorat et a une expérience vécue de l'incarcération familiale en tant qu'adolescent."
+      }
+    },
+    "impact_title": "Notre Impact",
+    "impact_text": "Depuis notre création, nous avons eu le privilège de soutenir des centaines d'adolescents et leurs familles dans des moments difficiles.",
+    "impact_teens": "Adolescents Soutenus",
+    "impact_families": "Familles Aidées",
+    "impact_graduation": "Taux de Réussite",
+    "impact_positive": "Résultats Positifs"
+  },
+  "programs": {
+    "title": "Nos Programmes",
+    "social_work": "Soutien de Travail Social",
+    "social_work_desc": "Services de conseil et de soutien professionnels adaptés aux adolescents confrontés à des défis familiaux.",
+    "mentoring": "Mentorat",
+    "mentoring_desc": "Programmes de mentorat individuel connectant les adolescents avec des modèles positifs.",
+    "empowerment": "Initiatives d'Autonomisation",
+    "empowerment_desc": "Programmes axés sur le développement de la confiance, des compétences de vie et la planification de l'avenir.",
+    "community": "Engagement Communautaire",
+    "community_desc": "Créer des communautés de soutien où les adolescents peuvent se connecter et partager des expériences."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "form_title": "Envoyez-nous un message",
+    "name": "Nom Complet",
+    "email": "Adresse Email",
+    "subject": "Sujet",
+    "message": "Votre Message",
+    "submit": "Envoyer le Message",
+    "success": "Merci pour votre message. Nous vous recontacterons bientôt!",
+    "error": "Il y a eu une erreur lors de l'envoi de votre message. Veuillez réessayer."
+  },
+  "waysToHelp": {
+    "volunteer": {
+      "heading": "Devenez Bénévole",
+      "text": "Partagez votre temps, vos compétences et votre passion pour avoir un impact direct sur la vie des adolescents qui ont besoin de soutien et de conseils en période difficile."
+    },
+    "partnerships": {
+      "heading": "Devenez Partenaire",
+      "text": "Les organisations, entreprises et institutions peuvent amplifier leur impact en s'associant à Legacy of Hope pour soutenir notre mission."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

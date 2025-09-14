@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "programs": "Programme",
+    "help": "Helfen",
+    "contact": "Kontakt",
+    "faq": "FAQ",
+    "donate": "Jetzt spenden"
+  },
+  "hero": {
+    "title": "Brücken der Hoffnung bauen",
+    "subtitle": "Unterstützung von Jugendlichen, die von familiärer Inhaftierung betroffen sind, mit Ressourcen, Mentoring und unerschütterlicher Hoffnung auf eine bessere Zukunft.",
+    "cta_primary": "Jetzt spenden",
+    "cta_secondary": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Über Legacy of Hope",
+    "hero_text": "Legacy of Hope wurde mit dem Glauben gegründet, dass jeder Jugendliche Unterstützung verdient, unabhängig von den Herausforderungen, denen seine Familie gegenübersteht. Wir setzen uns dafür ein, Kreisläufe zu durchbrechen und bessere Zukunftsperspektiven zu schaffen.",
+    "mission_title": "Unsere Mission",
+    "mission_text": "Umfassende Unterstützung, Ressourcen und Hoffnung für Jugendliche bereitzustellen, deren Leben von der Inhaftierung von Familienmitgliedern betroffen ist.",
+    "vision_title": "Unsere Vision",
+    "vision_text": "Eine Welt, in der jeder Jugendliche, unabhängig von seinen familiären Umständen, Zugang zu der Unterstützung und den Möglichkeiten hat, die er braucht, um zu gedeihen.",
+    "story_title": "Unsere Geschichte",
+    "story_p1": "Legacy of Hope begann 2018, als eine Gruppe von Sozialarbeitern, ehemals betroffenen Jugendlichen und Gemeindeverfechtern eine kritische Lücke in den Dienstleistungen für Jugendliche erkannte, die von familiärer Inhaftierung betroffen sind.",
+    "story_p2": "Was als kleine Selbsthilfegruppe in New York begann, ist zu einer internationalen Organisation geworden, die Gemeinden in den USA und Kenia unterstützt. Unsere Programme werden von und für die Gemeinschaft entwickelt, um kulturelle Relevanz und Wirksamkeit zu gewährleisten.",
+    "story_p3": "Heute weiten wir unsere Reichweite weiter aus und bleiben dabei unserem Kernversprechen treu: individuelle, traumasensible Betreuung, die jede einzigartige Erfahrung und jedes Potenzial eines Jugendlichen ehrt.",
+    "values_title": "Unsere Werte",
+    "values_text": "Diese Grundwerte leiten alles, was wir tun, und prägen, wie wir unserer Gemeinschaft dienen.",
+    "values": {
+      "compassion": {
+        "title": "Mitgefühl",
+        "description": "Wir begegnen jeder Interaktion mit Empathie, Verständnis und bedingungsloser Unterstützung."
+      },
+      "community": {
+        "title": "Gemeinschaft",
+        "description": "Wir glauben an die Kraft der Verbindung und den Aufbau unterstützender Netzwerke für Heilung und Wachstum."
+      },
+      "empowerment": {
+        "title": "Ermächtigung",
+        "description": "Wir konzentrieren uns darauf, Resilienz aufzubauen und Jugendlichen zu helfen, ihre eigene Stärke und ihr Potenzial zu entdecken."
+      },
+      "inclusion": {
+        "title": "Inklusion",
+        "description": "Wir heißen Jugendliche aus allen Hintergründen, Kulturen und Lebensumständen willkommen und unterstützen sie."
+      },
+      "excellence": {
+        "title": "Exzellenz",
+        "description": "Wir streben nach höchsten Standards in unseren Programmen und Dienstleistungen."
+      },
+      "growth": {
+        "title": "Wachstum",
+        "description": "Wir verpflichten uns zu kontinuierlichem Lernen und Verbesserungen in unserem Ansatz."
+      }
+    },
+    "team_title": "Unser Team",
+    "team_text": "Unser engagiertes Team vereint vielfältige Fachkenntnisse und eigene Erfahrungen, um Jugendliche und Familien mit Mitgefühl und Professionalität zu unterstützen.",
+    "team": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Geschäftsführerin",
+        "bio": "Sarah verfügt über mehr als 15 Jahre Erfahrung in der Sozialarbeit und Nonprofit-Leitung, mit Schwerpunkt auf Jugendförderung und Familienunterstützung."
+      },
+      "michael": {
+        "name": "Dr. Michael Chen",
+        "role": "Klinischer Leiter",
+        "bio": "Ein approbierter klinischer Psychologe mit Expertise in traumasensibler Betreuung von Jugendlichen und Familientherapie."
+      },
+      "amara": {
+        "name": "Amara Okafor",
+        "role": "Programmleiterin Kenia",
+        "bio": "Amara leitet unsere Aktivitäten in Kenia und bringt ein tiefes Verständnis für gemeinschaftsbasierte Unterstützungssysteme in Ostafrika mit."
+      },
+      "roberto": {
+        "name": "Roberto Martinez",
+        "role": "Jugendkoordinator",
+        "bio": "Roberto koordiniert unsere Mentoring-Programme und hat als Jugendlicher selbst Erfahrungen mit familiärer Inhaftierung gemacht."
+      }
+    },
+    "impact_title": "Unsere Wirkung",
+    "impact_text": "Seit unserer Gründung konnten wir Hunderte von Jugendlichen und ihren Familien in schwierigen Zeiten unterstützen.",
+    "impact_teens": "Unterstützte Jugendliche",
+    "impact_families": "Betreute Familien",
+    "impact_graduation": "Abschlussquote",
+    "impact_positive": "Positive Ergebnisse"
+  },
+  "programs": {
+    "title": "Unsere Programme",
+    "social_work": "Sozialarbeit",
+    "social_work_desc": "Professionelle Beratung und Unterstützungsdienste für Jugendliche mit familiären Herausforderungen.",
+    "mentoring": "Mentoring",
+    "mentoring_desc": "Eins-zu-eins-Mentoring-Programme, die Jugendliche mit positiven Vorbildern verbinden.",
+    "empowerment": "Ermächtigung",
+    "empowerment_desc": "Programme zum Aufbau von Selbstvertrauen, Lebenskompetenzen und Zukunftsplanung.",
+    "community": "Gemeinschaftsengagement",
+    "community_desc": "Schaffung unterstützender Gemeinschaften, in denen Jugendliche sich vernetzen und Erfahrungen teilen können."
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "form_title": "Senden Sie uns eine Nachricht",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "subject": "Betreff",
+    "message": "Ihre Nachricht",
+    "submit": "Nachricht senden",
+    "success": "Vielen Dank für Ihre Nachricht. Wir werden uns bald bei Ihnen melden!",
+    "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+  },
+  "waysToHelp": {
+    "volunteer": {
+      "heading": "Freiwillig mitmachen",
+      "text": "Teilen Sie Ihre Zeit, Fähigkeiten und Leidenschaft, um das Leben von Jugendlichen, die Unterstützung und Orientierung benötigen, direkt zu beeinflussen."
+    },
+    "partnerships": {
+      "heading": "Partnerschaft mit uns",
+      "text": "Organisationen, Unternehmen und Institutionen können ihre Wirkung verstärken, indem sie mit Legacy of Hope zusammenarbeiten, um unsere Mission zu unterstützen."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

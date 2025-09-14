@@ -1,0 +1,145 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "programs": "Programs",
+    "help": "Ways to Help",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "donate": "Donate Now"
+  },
+  "hero": {
+    "title": "Building Bridges of Hope",
+    "subtitle": "Supporting teenagers affected by familial incarceration with resources, mentorship, and unwavering hope for a brighter future.",
+    "cta_primary": "Donate Now",
+    "cta_secondary": "Learn More"
+  },
+  "about": {
+    "title": "About Legacy of Hope",
+    "hero_text": "Legacy of Hope was founded on the belief that every teenager deserves support, regardless of the challenges their family faces. We are dedicated to breaking cycles and building brighter futures.",
+    "mission_title": "Our Mission",
+    "mission_text": "To provide comprehensive support, resources, and hope for teenagers whose lives have been affected by the incarceration of family members.",
+    "vision_title": "Our Vision",
+    "vision_text": "A world where every teenager, regardless of their family circumstances, has access to the support and opportunities they need to thrive.",
+    "story_title": "Our Story",
+    "story_p1": "Legacy of Hope began in 2018 when a group of social workers, former system-impacted youth, and community advocates recognized a critical gap in services for teenagers affected by familial incarceration.",
+    "story_p2": "What started as a small support group in New York has grown into an international organization serving communities in the United States and Kenya. Our programs are designed by and for the community, ensuring cultural relevance and effectiveness.",
+    "story_p3": "Today, we continue to expand our reach while maintaining our core commitment to personalized, trauma-informed care that honors each teen's unique experience and potential.",
+    "values_title": "Our Values",
+    "values_text": "These core values guide everything we do and shape how we serve our community.",
+    "values": {
+      "compassion": {
+        "title": "Compassion",
+        "description": "We approach every interaction with empathy, understanding, and unconditional support."
+      },
+      "community": {
+        "title": "Community",
+        "description": "We believe in the power of connection and creating supportive networks for healing and growth."
+      },
+      "empowerment": {
+        "title": "Empowerment",
+        "description": "We focus on building resilience and helping teens discover their own strength and potential."
+      },
+      "inclusion": {
+        "title": "Inclusion",
+        "description": "We welcome and support teens from all backgrounds, cultures, and circumstances."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for the highest standards in our programs and services."
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "We are committed to continuous learning and improvement in our approach."
+      }
+    },
+    "team_title": "Meet Our Team",
+    "team_text": "Our dedicated team brings together diverse expertise and lived experience to support teens and families with compassion and professionalism.",
+    "team": {
+      "sarah": {
+        "name": "Sarah Johnson",
+        "role": "Executive Director",
+        "bio": "Sarah has over 15 years of experience in social work and nonprofit leadership, specializing in youth advocacy and family support services."
+      },
+      "michael": {
+        "name": "Dr. Michael Chen",
+        "role": "Clinical Director",
+        "bio": "A licensed clinical psychologist with expertise in trauma-informed care for adolescents and family systems therapy."
+      },
+      "amara": {
+        "name": "Amara Okafor",
+        "role": "Kenya Program Director",
+        "bio": "Amara leads our Kenya operations and brings deep understanding of community-based support systems in East Africa."
+      },
+      "roberto": {
+        "name": "Roberto Martinez",
+        "role": "Youth Coordinator",
+        "bio": "Roberto coordinates our mentorship programs and has lived experience navigating family incarceration as a teenager."
+      }
+    },
+    "impact_title": "Our Impact",
+    "impact_text": "Since our founding, we've been privileged to support hundreds of teens and their families through difficult times.",
+    "impact_teens": "Teens Supported",
+    "impact_families": "Families Served",
+    "impact_graduation": "Graduation Rate",
+    "impact_positive": "Positive Outcomes"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "social_work": "Social Work Support",
+    "social_work_desc": "Professional counseling and support services tailored for teens facing family challenges.",
+    "mentoring": "Mentoring",
+    "mentoring_desc": "One-on-one mentorship programs connecting teens with positive role models.",
+    "empowerment": "Empowerment Initiatives",
+    "empowerment_desc": "Programs focused on building confidence, life skills, and future planning.",
+    "community": "Community Engagement",
+    "community_desc": "Creating supportive communities where teens can connect and share experiences."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "form_title": "Send us a message",
+    "name": "Full Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "success": "Thank you for your message. We'll get back to you soon!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "donate": {
+    "title": "Make a Difference",
+    "subtitle": "Your donation directly supports teenagers in need",
+    "monthly": "Monthly",
+    "onetime": "One-time",
+    "amount": "Amount",
+    "custom": "Custom Amount",
+    "donor_info": "Donor Information",
+    "donate_button": "Complete Donation"
+  },
+  "footer": {
+    "mission": "Supporting teens affected by familial incarceration",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Information",
+    "follow_us": "Follow Us",
+    "copyright": "© 2025 Legacy of Hope. All rights reserved.",
+    "privacy_policy": "Privacy Policy",
+    "cookie_settings": "Cookie Settings"
+  },
+  "waysToHelp": {
+    "volunteer": {
+      "heading": "Volunteer With Us",
+      "text": "Share your time, skills, and passion to directly impact the lives of teenagers who need support and guidance during challenging times."
+    },
+    "partnerships": {
+      "heading": "Partner With Us",
+      "text": "Organizations, businesses, and institutions can amplify their impact by partnering with Legacy of Hope to support our mission."
+    }
+  },
+  "languages": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}
