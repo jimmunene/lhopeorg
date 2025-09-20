@@ -1,21 +1,20 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Heart, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { X as XIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
+//import Logo from '../assets/logo.png';
 
 const Footer = () => {
   const { t } = useTranslation();
 
   return (
-  <footer className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white">
+    <footer className="bg-gradient-to-r from-brand-dark via-brand-primary to-brand-secondary text-white backdrop-blur-lg bg-opacity-80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Heart className="h-8 w-8 text-yellow-400" />
-              <span className="text-2xl font-bold">Legacy of Hope</span>
             </div>
             <p className="text-gray-300">
               {t('footer.mission')}
