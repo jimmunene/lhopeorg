@@ -154,6 +154,13 @@ const Navbar = () => {
               >
                 {t('nav.donate')}
               </Link>
+              <a
+                href="#key-documents"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600"
+                onClick={() => setIsOpen(false)}
+              >
+                Key Documents
+              </a>
             </div>
           </div>
         )}
