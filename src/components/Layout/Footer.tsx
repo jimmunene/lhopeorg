@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
 import { X as XIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+// ✅ Import Templates directly
+import Template1 from '../assets/Template1.pdf';
+import Template2 from '../assets/Template2.pdf';
+import Template3 from '../assets/Template3.pdf';
+
 const Footer = () => {
   const { t } = useTranslation();
+  const [showTemplates, setShowTemplates] = useState(false);
+  const [password, setPassword] = useState('');
+  const [accessGranted, setAccessGranted] = useState(false);
+
+  const handlePasswordSubmit = (e) => {
+    e.preventDefault();
+    if (password === 'lhopeadmin') {
+      setAccessGranted(true);
+      setShowTemplates(false);
+    } else {
+      alert('Incorrect password. Please try again.');
+    }
+  };
 
   return (
     <footer className="bg-black text-neutral-300 font-sans">
@@ -76,7 +94,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={20} className="text-soft-teal" />
-                <span>+1 (555) 123-4567</span>
+                <span>+1 (419) 315-0132</span>
               </div>
             </div>
           </div>
@@ -96,6 +114,51 @@ const Footer = () => {
               </button>
             </div>
           </div>
+        </div>
+
+        {/* 🔐 Company Templates (Password Protected) */}
+        <div className="mt-12 border-t border-neutral-800 pt-8">
+          <h3 className="text-lg font-semibold mb-4 text-white font-serif">Company Templates</h3>
+          {!accessGranted ? (
+            <>
+              <button 
+                onClick={() => setShowTemplates(!showTemplates)} 
+                className="bg-soft-teal hover:bg-warm-gold text-black px-4 py-2 rounded-lg font-medium transition-colors duration-300"
+              >
+                Access Templates
+              </button>
+              {showTemplates && (
+                <form onSubmit={handlePasswordSubmit} className="mt-4 space-y-3">
+                  <input 
+                    type="password" 
+                    placeholder="Enter password" 
+                    className="w-full px-4 py-2 bg-neutral-800 border border-neutral-600 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-soft-teal"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                  />
+                  <button 
+                    type="submit" 
+                    className="w-full bg-warm-gold text-black font-semibold py-2 rounded-lg"
+                  >
+                    Submit
+                  </button>
+                </form>
+              )}
+            </>
+          ) : (
+            <div className="space-y-3">
+              {/* ✅ Using imported PDFs */}
+              <a href={Template1} target="_blank" rel="noopener noreferrer" className="block text-soft-teal hover:text-warm-gold">
+                📄 Template 1
+              </a>
+              <a href={Template2} target="_blank" rel="noopener noreferrer" className="block text-soft-teal hover:text-warm-gold">
+                📄 Template 2
+              </a>
+              <a href={Template3} target="_blank" rel="noopener noreferrer" className="block text-soft-teal hover:text-warm-gold">
+                📄 Template 3
+              </a>
+            </div>
+          )}
         </div>
       </div>
 
