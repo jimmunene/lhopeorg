@@ -79,7 +79,8 @@ const Programs = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-black to-[#FFD700] text-white fade-in-up">
+<section className="py-20 bg-yellow-600 text-white fade-in-up">
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="section-title text-white mb-6">{t('programs.title')}</h1>
