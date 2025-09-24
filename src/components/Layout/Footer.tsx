@@ -26,14 +26,14 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-black text-neutral-300 font-sans">
+    <footer className="bg-teal-500 text-neutral-300 font-sans">
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           
           {/* Brand */}
           <div className="space-y-4">
-            <p className="text-neutral-400 text-sm leading-relaxed">
+            <p className="text-neutral-300 text-sm leading-relaxed">
               {t('footer.mission')}
             </p>
             <div className="flex space-x-4">
@@ -76,14 +76,14 @@ const Footer = () => {
                 <MapPin size={20} className="text-soft-teal mt-0.5" />
                 <div>
                   <p className="text-white">United States Office</p>
-                  <p className="text-neutral-400">123 Hope Street, Suite 100<br />New York, NY 10001</p>
+                  <p className="text-neutral-300">123 Hope Street, Suite 100<br />New York, NY 10001</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="text-soft-teal mt-0.5" />
                 <div>
                   <p className="text-white">Kenya Office</p>
-                  <p className="text-neutral-400">P.O. Box 12345<br />Nairobi, Kenya</p>
+                  <p className="text-neutral-300">P.O. Box 12345<br />Nairobi, Kenya</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -102,7 +102,7 @@ const Footer = () => {
           {/* Newsletter */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white font-serif">Stay Updated</h3>
-            <p className="text-neutral-400 mb-4">Subscribe to our newsletter for updates on our programs and impact.</p>
+            <p className="text-neutral-300 mb-4">Subscribe to our newsletter for updates on our programs and impact.</p>
             <div className="space-y-3">
               <input
                 type="email"
@@ -165,7 +165,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="border-t border-neutral-800 py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center text-sm">
-          <p className="text-neutral-400 mb-4 md:mb-0">
+          <p className="text-neutral-300 mb-4 md:mb-0">
             {t('footer.copyright')}
           </p>
           <div className="flex space-x-6">
