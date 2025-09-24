@@ -7,10 +7,11 @@ import LanguageDropdown from './LanguageDropdown';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Common class for nav links
   const linkClass = 'text-warm-gold font-medium';
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-gold shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -58,14 +59,50 @@ const Navbar = () => {
 
         {/* Mobile Links */}
         {isOpen && (
-          <div className="md:hidden bg-black border-t border-warm-gold">
+          <div className="md:hidden bg-white/20 backdrop-blur-md border-t border-warm-gold">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link to="/" className={`block px-3 py-2 ${linkClass}`} onClick={() => setIsOpen(false)}>Home</Link>
-              <Link to="/about" className={`block px-3 py-2 ${linkClass}`} onClick={() => setIsOpen(false)}>About</Link>
-              <Link to="/programs" className={`block px-3 py-2 ${linkClass}`} onClick={() => setIsOpen(false)}>Programs</Link>
-              <Link to="/help" className={`block px-3 py-2 ${linkClass}`} onClick={() => setIsOpen(false)}>Help</Link>
-              <Link to="/contact" className={`block px-3 py-2 ${linkClass}`} onClick={() => setIsOpen(false)}>Contact</Link>
-              <Link to="/faq" className={`block px-3 py-2 ${linkClass}`} onClick={() => setIsOpen(false)}>FAQ</Link>
+              <Link
+                to="/"
+                className={`block px-3 py-2 ${linkClass}`}
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </Link>
+              <Link
+                to="/about"
+                className={`block px-3 py-2 ${linkClass}`}
+                onClick={() => setIsOpen(false)}
+              >
+                About
+              </Link>
+              <Link
+                to="/programs"
+                className={`block px-3 py-2 ${linkClass}`}
+                onClick={() => setIsOpen(false)}
+              >
+                Programs
+              </Link>
+              <Link
+                to="/help"
+                className={`block px-3 py-2 ${linkClass}`}
+                onClick={() => setIsOpen(false)}
+              >
+                Help
+              </Link>
+              <Link
+                to="/contact"
+                className={`block px-3 py-2 ${linkClass}`}
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
+              </Link>
+              <Link
+                to="/faq"
+                className={`block px-3 py-2 ${linkClass}`}
+                onClick={() => setIsOpen(false)}
+              >
+                FAQ
+              </Link>
               <Link
                 to="/donate"
                 className="block px-3 py-2 bg-warm-gold text-black font-semibold rounded-lg text-center mx-3 mt-4"
