@@ -163,7 +163,7 @@ const FAQ = () => {
                 placeholder="Search frequently asked questions..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 text-lg"
+                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500 text-lg"
               />
             </div>
 

@@ -145,7 +145,7 @@ const Contact = () => {
                       {...register('name')}
                       type="text"
                       id="name"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500 transition-colors duration-300 ${
                         errors.name ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="Your full name"

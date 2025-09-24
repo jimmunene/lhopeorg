@@ -2,7 +2,7 @@ import React from 'react';
 
 const Terms = () => (
   <div className="pt-20">
-    <section className="py-20 bg-gradient-to-r from-cyan-700 to-cyan-900 text-white fade-in-up">
+    <section className="py-20 bg-gradient-to-r from-Teal-700 to-Teal-900 text-white fade-in-up">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="section-title mb-6">Terms of Service</h1>
         <p className="text-lg mb-8 opacity-90">
