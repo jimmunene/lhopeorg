@@ -74,7 +74,7 @@ const Contact = () => {
       icon: <Phone className="h-6 w-6" />,
       title: 'Call Us',
       details: [
-        'US: +1 (555) 123-4567',
+        'US: +1 (419) 315-0132',
         'Kenya: +254 700 123 456'
       ]
     },
@@ -99,7 +99,7 @@ const Contact = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-  <section className="py-20 bg-gradient-to-r from-blue-600 to-green-600 text-white fade-in-up">
+  <section className="py-20 bg-gradient-to-r from-yellow-600 to-yellow-600 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="section-title text-white mb-6">
@@ -145,7 +145,7 @@ const Contact = () => {
                       {...register('name')}
                       type="text"
                       id="name"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 transition-colors duration-300 ${
                         errors.name ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="Your full name"
@@ -163,7 +163,7 @@ const Contact = () => {
                       {...register('email')}
                       type="email"
                       id="email"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors duration-300 ${
                         errors.email ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="your.email@example.com"
@@ -181,7 +181,7 @@ const Contact = () => {
                       {...register('subject')}
                       type="text"
                       id="subject"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors duration-300 ${
                         errors.subject ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="What is this regarding?"
@@ -199,7 +199,7 @@ const Contact = () => {
                       {...register('message')}
                       id="message"
                       rows={6}
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-300 resize-vertical ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors duration-300 resize-vertical ${
                         errors.message ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="Tell us how we can help you..."
@@ -246,7 +246,7 @@ const Contact = () => {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-start space-x-4 p-6 bg-gray-50 rounded-lg">
-                    <div className="text-blue-600 mt-1">
+                    <div className="text-yellow-600 mt-1">
                       {info.icon}
                     </div>
                     <div>

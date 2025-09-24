@@ -23,7 +23,7 @@ const WaysToHelp = () => {
       impact: t('waysToHelp.donation.onetime.impact')
     },
     {
-      icon: <Gift className="h-8 w-8 text-blue-500" />,
+      icon: <Gift className="h-8 w-8 text-cyan-500" />,
       title: t('waysToHelp.donation.inkind.title'),
       description: t('waysToHelp.donation.inkind.description'),
       items: [t('waysToHelp.donation.inkind.items.0'), t('waysToHelp.donation.inkind.items.1'), t('waysToHelp.donation.inkind.items.2'), t('waysToHelp.donation.inkind.items.3')],
@@ -90,7 +90,7 @@ const WaysToHelp = () => {
   return (
     <div className="pt-20">
       {/* Hero Section with Logo */}
-  <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white fade-in-up">
+  <section className="py-20 bg-gradient-to-r from-green-600 to-cyan-600 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center flex flex-col items-center">
             <img src={Logo} alt="LHOPE Logo" className="mx-auto mb-6 w-40 h-40 object-contain" style={{ background: 'transparent' }} />
@@ -134,7 +134,7 @@ const WaysToHelp = () => {
                       {option.amounts.map((amount, amountIndex) => (
                         <button
                           key={amountIndex}
-                          className="px-4 py-2 border border-gray-300 rounded-lg hover:border-blue-500 hover:text-blue-600 transition-colors duration-300"
+                          className="px-4 py-2 border border-gray-300 rounded-lg hover:border-cyan-500 hover:text-cyan-600 transition-colors duration-300"
                         >
                           {amount}
                         </button>
@@ -157,8 +157,8 @@ const WaysToHelp = () => {
                   </div>
                 )}
 
-                <div className="bg-blue-50 p-4 rounded-lg mb-6">
-                  <p className="text-sm text-blue-800 font-medium">
+                <div className="bg-cyan-50 p-4 rounded-lg mb-6">
+                  <p className="text-sm text-cyan-800 font-medium">
                     💡 {option.impact}
                   </p>
                 </div>
@@ -200,7 +200,7 @@ const WaysToHelp = () => {
 
                 <div className="space-y-4 mb-6">
                   <div className="flex items-center text-sm text-gray-600">
-                    <Clock className="h-4 w-4 text-blue-500 mr-2" />
+                    <Clock className="h-4 w-4 text-cyan-500 mr-2" />
                     <span className="font-medium">Time Commitment:</span>
                     <span className="ml-2">{opportunity.commitment}</span>
                   </div>
@@ -264,7 +264,7 @@ const WaysToHelp = () => {
                 <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
                   <div className="card">
                     <div className="flex items-center mb-6">
-                      <Handshake className="h-8 w-8 text-blue-600 mr-4" />
+                      <Handshake className="h-8 w-8 text-cyan-600 mr-4" />
                       <h3 className="text-3xl font-bold text-gray-800">
                         {partnership.title}
                       </h3>
@@ -292,7 +292,7 @@ const WaysToHelp = () => {
                         {partnership.examples.map((example, exampleIndex) => (
                           <span
                             key={exampleIndex}
-                            className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm"
+                            className="px-3 py-1 bg-cyan-100 text-cyan-800 rounded-full text-sm"
                           >
                             {example}
                           </span>
@@ -324,7 +324,7 @@ const WaysToHelp = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-custom-blue text-white">
+      <section className="py-20 bg-custom-cyan text-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-light mb-6">
             Ready to Make a Difference?

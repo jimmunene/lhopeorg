@@ -95,11 +95,11 @@ const CookieConsent = () => {
   return (
     <>
       {/* Cookie Banner */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t-2 border-blue-600 shadow-2xl">
+      <div className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t-2 border-cyan-600 shadow-2xl">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
             <div className="flex items-start space-x-4 flex-1">
-              <Cookie className="h-8 w-8 text-blue-600 flex-shrink-0 mt-1" />
+              <Cookie className="h-8 w-8 text-cyan-600 flex-shrink-0 mt-1" />
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   We Value Your Privacy
@@ -111,7 +111,7 @@ const CookieConsent = () => {
                 </p>
                 <button
                   onClick={() => setShowPreferences(true)}
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 text-sm font-medium mt-2"
+                  className="inline-flex items-center text-cyan-600 hover:text-cyan-800 text-sm font-medium mt-2"
                 >
                   <Info className="h-4 w-4 mr-1" />
                   Learn more about our data practices
@@ -128,14 +128,14 @@ const CookieConsent = () => {
               </button>
               <button
                 onClick={() => setShowPreferences(true)}
-                className="px-4 py-2 text-blue-600 hover:text-blue-800 border border-blue-600 rounded-lg hover:bg-blue-50 transition-colors duration-300 text-sm font-medium flex items-center justify-center"
+                className="px-4 py-2 text-cyan-600 hover:text-cyan-800 border border-cyan-600 rounded-lg hover:bg-cyan-50 transition-colors duration-300 text-sm font-medium flex items-center justify-center"
               >
                 <Settings className="h-4 w-4 mr-2" />
                 Customize
               </button>
               <button
                 onClick={handleAcceptAll}
-                className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300 text-sm font-medium flex items-center justify-center"
+                className="px-6 py-2 bg-cyan-600 hover:bg-cyan-700 text-white rounded-lg transition-colors duration-300 text-sm font-medium flex items-center justify-center"
               >
                 <Check className="h-4 w-4 mr-2" />
                 Accept All

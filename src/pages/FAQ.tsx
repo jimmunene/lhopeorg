@@ -136,7 +136,8 @@ const FAQ = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-    <section className="py-20 bg-gradient-to-r from-purple-600 to-blue-600 text-white fade-in-up">
+<section className="py-20 bg-gradient-to-r from-yellow-400 via-warm-gold to-yellow-600 text-white fade-in-up">
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="section-title text-white mb-6">
@@ -162,7 +163,7 @@ const FAQ = () => {
                 placeholder="Search frequently asked questions..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg"
+                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 text-lg"
               />
             </div>
 
@@ -174,7 +175,7 @@ const FAQ = () => {
                   onClick={() => setSelectedCategory(category.id)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-colors duration-300 ${
                     selectedCategory === category.id
-                      ? 'bg-blue-600 text-white'
+                      ? 'bg-yellow-600 text-white'
                       : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-300'
                   }`}
                 >
@@ -208,7 +209,7 @@ const FAQ = () => {
                 >
                   <button
                     onClick={() => toggleItem(item.id)}
-                    className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-lg"
+                    className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-inset rounded-lg"
                     aria-expanded={openItems.includes(item.id)}
                     aria-controls={`faq-answer-${item.id}`}
                   >
@@ -245,7 +246,7 @@ const FAQ = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             Still Have Questions?
           </h2>
-          <p className="text-xl text-gray-600 mb-8">
+          <p className="text-xl text-yellow-600 mb-8">
             Can't find the answer you're looking for? Our team is here to help. 
             Reach out to us and we'll get back to you within 24 hours.
           </p>

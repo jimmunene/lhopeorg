@@ -38,7 +38,7 @@ const LanguageDropdown = () => {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center space-x-2 text-gray-700 hover:text-blue-600 transition-colors duration-300"
+        className="flex items-center space-x-2 text-gray-700 hover:text-cyan-600 transition-colors duration-300"
         aria-label="Select language"
         aria-haspopup="true"
         aria-expanded={isOpen}
@@ -55,7 +55,7 @@ const LanguageDropdown = () => {
               key={language.code}
               onClick={() => handleLanguageChange(language.code)}
               className={`w-full text-left px-4 py-2 hover:bg-gray-100 transition-colors duration-200 ${
-                i18n.language === language.code ? 'bg-blue-50 text-blue-600' : 'text-gray-700'
+                i18n.language === language.code ? 'bg-cyan-50 text-cyan-600' : 'text-gray-700'
               }`}
             >
               {language.name}
