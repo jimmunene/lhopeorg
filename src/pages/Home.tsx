@@ -15,25 +15,25 @@ const Home = () => {
 
   const impactAreas = [
     {
-      icon: <Heart className="h-12 w-12 text-[var(--teal-1)]" />,
+      icon: <Heart className="h-12 w-12 text-teal-500" />,
       title: 'Emotional Support',
       description:
         'Professional counseling and peer support groups to help teens process their experiences and build resilience.',
     },
     {
-      icon: <Users className="h-12 w-12 text-[var(--gold-1)]" />,
+      icon: <Users className="h-12 w-12 text-yellow-400" />,
       title: 'Community Connection',
       description:
         'Creating safe spaces where teens can connect with others who understand their unique challenges.',
     },
     {
-      icon: <Award className="h-12 w-12 text-[var(--black-1)]" />,
+      icon: <Award className="h-12 w-12 text-black" />,
       title: 'Educational Support',
       description:
         'Scholarships, tutoring, and educational resources to ensure academic success despite family challenges.',
     },
     {
-      icon: <Target className="h-12 w-12 text-[var(--grey-dark)]" />,
+      icon: <Target className="h-12 w-12 text-gray-700" />,
       title: 'Future Planning',
       description:
         'Career counseling, college preparation, and life skills training to build bright futures.',
@@ -45,9 +45,9 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center fade-in-up font-[Montserrat]">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-teal-400 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("/src/components/assets/Hero.png")',
+            backgroundImage: 'url("/assets/Hero.png")',
           }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -63,7 +63,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center fade-in-up delay-3">
             <Link
               to="/donate"
-              className="bg-[var(--gold-1)] hover:bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               {t('hero.cta_primary')}
             </Link>
@@ -83,15 +83,15 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-[var(--grey-light)] fade-in-up delay-2">
+      <section className="py-20 bg-gray-100 fade-in-up delay-2">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-5xl font-bold text-[var(--teal-1)] mb-4">
+                <div className="text-5xl font-bold text-teal-500 mb-4">
                   {stat.number}
                 </div>
-                <div className="text-[var(--black-1)] font-medium">{stat.label}</div>
+                <div className="text-black font-medium">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -99,13 +99,13 @@ const Home = () => {
       </section>
 
       {/* Impact Areas */}
-      <section className="py-24 bg-[var(--grey-light)] fade-in-up delay-3">
+      <section className="py-24 bg-gray-100 fade-in-up delay-3">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-4xl font-[Playfair_Display] font-bold mb-8 text-[var(--black-1)]">
+            <h2 className="text-4xl font-[Playfair_Display] font-bold mb-8 text-black">
               How We Make a Difference
             </h2>
-            <p className="text-xl text-[var(--grey-dark)] max-w-3xl mx-auto">
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Our comprehensive approach addresses the unique challenges faced by teenagers affected by familial incarceration.
             </p>
           </div>
@@ -116,10 +116,10 @@ const Home = () => {
                 <div className="mb-8 flex justify-center transform group-hover:scale-110 transition-transform duration-300">
                   {area.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-6 text-[var(--black-1)]">
+                <h3 className="text-xl font-semibold mb-6 text-black">
                   {area.title}
                 </h3>
-                <p className="text-[var(--grey-dark)] leading-relaxed">{area.description}</p>
+                <p className="text-gray-700 leading-relaxed">{area.description}</p>
               </div>
             ))}
           </div>
@@ -127,7 +127,7 @@ const Home = () => {
       </section>
 
       {/* Mission Statement */}
-      <section className="py-24 bg-[var(--teal-1)] text-white fade-in-up delay-4">
+      <section className="py-24 bg-teal-400 text-white fade-in-up delay-4">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -139,7 +139,7 @@ const Home = () => {
               </p>
               <Link
                 to="/about"
-                className="inline-flex items-center text-[var(--gold-1)] hover:text-yellow-200 font-semibold text-lg group"
+                className="inline-flex items-center text-yellow-400 hover:text-yellow-200 font-semibold text-lg group"
               >
                 Learn About Our Mission
                 <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform duration-300" />
@@ -157,11 +157,11 @@ const Home = () => {
       </section>
 
       {/* Partners Section */}
-      <section className="py-24 bg-[var(--grey-light)]">
+      <section className="py-24 bg-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[var(--black-1)] mb-8">Our Partners</h2>
-            <p className="text-xl text-[var(--grey-dark)] max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold text-black mb-8">Our Partners</h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               We are proud to collaborate with these amazing organizations.
             </p>
           </div>
@@ -179,7 +179,7 @@ const Home = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-[var(--teal-1)] to-[var(--black-1)] text-white fade-in-up delay-4">
+      <section className="py-20 bg-gradient-to-r from-teal-500 to-black text-white fade-in-up delay-4">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-light mb-6 font-[Playfair_Display]">
             Ready to Make an Impact?
@@ -190,7 +190,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/donate"
-              className="bg-[var(--gold-1)] hover:bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Donate Today
             </Link>
@@ -205,12 +205,12 @@ const Home = () => {
       </section>
 
       {/* Key Documents Section */}
-      <section id="key-documents" className="py-12 bg-[var(--grey-light)]">
+      <section id="key-documents" className="py-12 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-6 text-[var(--black-1)]">
+          <h2 className="text-3xl font-bold text-center mb-6 text-black">
             Key Documents
           </h2>
-          <p className="text-center text-[var(--grey-dark)] mb-8">
+          <p className="text-center text-gray-700 mb-8">
             Access important documents that outline our mission, governance, and operations.
           </p>
           <div className="overflow-x-auto">
@@ -229,7 +229,7 @@ const Home = () => {
               ].map((doc, i) => (
                 <div key={i} className="flex-shrink-0 w-64 bg-white p-4 rounded-lg shadow-md">
                   <h3 className="text-lg font-semibold mb-2">{doc}</h3>
-                  <a href="#" className="text-[var(--teal-1)] hover:underline">
+                  <a href="#" className="text-teal-500 hover:underline">
                     View Document
                   </a>
                 </div>
