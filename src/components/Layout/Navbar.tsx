@@ -1,17 +1,35 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
-import Logo from '../assets/logo.jpg';
-import LanguageDropdown from './LanguageDropdown';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import Logo from "../assets/logo.jpg";
+import LanguageDropdown from "./LanguageDropdown";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Common class for nav links
-  const linkClass = 'text-warm-gold font-medium';
+  const linkClass = "text-warm-gold font-medium";
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md shadow-md">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
+        scrolled ? "bg-black/30 backdrop-blur-md shadow-md" : "bg-white"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -25,12 +43,24 @@ const Navbar = () => {
 
           {/* Desktop Links */}
           <div className="hidden md:flex items-center space-x-8 font-sans">
-            <Link to="/" className={linkClass}>Home</Link>
-            <Link to="/about" className={linkClass}>About</Link>
-            <Link to="/programs" className={linkClass}>Programs</Link>
-            <Link to="/help" className={linkClass}>Help</Link>
-            <Link to="/contact" className={linkClass}>Contact</Link>
-            <Link to="/faq" className={linkClass}>FAQ</Link>
+            <Link to="/" className={linkClass}>
+              Home
+            </Link>
+            <Link to="/about" className={linkClass}>
+              About
+            </Link>
+            <Link to="/programs" className={linkClass}>
+              Programs
+            </Link>
+            <Link to="/help" className={linkClass}>
+              Help
+            </Link>
+            <Link to="/contact" className={linkClass}>
+              Contact
+            </Link>
+            <Link to="/faq" className={linkClass}>
+              FAQ
+            </Link>
 
             {/* Language Dropdown */}
             <LanguageDropdown className="text-warm-gold" />
