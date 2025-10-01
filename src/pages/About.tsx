@@ -29,7 +29,7 @@ const About = () => {
     },
     {
       name: 'Prof. Dickson Nyariki',
-      role: 'Vice Chancellor, Murang’a University of Technology',
+      role: 'Vice Chancellor, Murang\'a University of Technology',
       representation: 'Board of Guarantee Member, Kenya',
       image: 'https://images.pexels.com/photos/3182796/pexels-photo-3182796.jpeg?auto=compress&cs=tinysrgb&w=400',
       bio: ''
@@ -107,7 +107,7 @@ const About = () => {
   return (
     <div className="pt-20 font-lato">
       {/* Hero Section */}
-<section className="py-20 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-700 text-white fade-in-up">
+      <section className="py-20 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-700 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="section-title text-white mb-6 font-playfair">
             {t('about.title')}
@@ -118,7 +118,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Founder */}
+      {/* Founder Statement */}
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/3 mb-6 md:mb-0">
@@ -130,15 +130,24 @@ const About = () => {
           </div>
           <div className="md:w-2/3 md:pl-8">
             <h2 className="text-3xl font-playfair font-bold text-gray-900 mb-6">
-              LHOPE (The Legacy of Hope) Founder’s Statement
+              About Our Founder
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>Paullette, a renowned professional fundraiser with a proven track record supporting Dyslexia Tanzania and pioneering NGOs in Kenya and Uganda, brings a lifetime of personal inspiration to The Legacy of Hope...</p>
-              <p>What ignited Paullette’s focused mission to support teenagers whose primary breadwinners have been incarcerated stems from a painful chapter in her youth...</p>
-              <p>The Legacy of Hope exists to fill that void. We will partner with government agencies and organizations working with prisoners to identify vulnerable teenagers through official channels...</p>
+              <p>
+                Paullette Nyaga is a renowned professional fundraiser with a strong track record of mobilizing resources for pioneering NGOs across East Africa, including Dyslexia Tanzania and grassroots organizations in Kenya and Uganda. Her lifelong dedication to social impact is deeply personal, shaped by her own family's story. Paullette's father was supported through school by Plan International in Embu, while her mother received sponsorship from a donor linked to the Thomas Barnardo Home in Nairobi. This legacy of empowerment through NGO support inspired her passion to give back and create opportunities for others.
+              </p>
+              <p>
+                The spark for The Legacy of Hope (LHOPE) came from a painful chapter in Paullette's youth. Her closest friend, Diana, was forced to become the sole caretaker of her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations to turn to, Diana endured isolation, stigma, and economic hardship—relying only on the kindness of friends and strangers. Paullette stepped in to raise funds for her, and through that experience, she discovered a devastating gap: no government programs or NGOs existed to support teenagers left behind by incarceration.
+              </p>
+              <p>
+                LHOPE was born to fill that void. Working hand in hand with government agencies and prison-related organizations, we will identify vulnerable teenagers through official channels and, with consent, provide emotional, social, and economic support tailored to their needs. Our mission is to ensure that no young person is left forgotten or unsupported when their parent's imprisonment threatens to derail their future.
+              </p>
+              <p>
+                Paullette's vision is bold yet simple: to break cycles of stigma and hardship by restoring dignity, opportunity, and hope to teenagers living through one of life's toughest challenges. With the support of donors and partners, LHOPE is committed to building a future where every teenager—no matter their circumstance—has the chance to thrive.
+              </p>
             </div>
             <p className="mt-6 text-gray-900 font-bold">Paullette Nyaga</p>
-            <p className="text-gray-600">Founder LHOPE</p>
+            <p className="text-gray-600">Founder, The Legacy of Hope</p>
           </div>
         </div>
       </section>
@@ -167,11 +176,20 @@ const About = () => {
       <section className="py-20 bg-cream fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="section-title mb-8 font-playfair">{t('about.story_title')}</h2>
+            <h2 className="section-title mb-8 font-playfair">Our Story</h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
-              <p>{t('about.story_p1')}</p>
-              <p>{t('about.story_p2')}</p>
-              <p>{t('about.story_p3')}</p>
+              <p>
+                The Legacy of Hope (LHOPE) was created to address a critical gap in support for teenagers whose primary breadwinners have been incarcerated. Across many communities, these young people face stigma, isolation, and economic hardship—yet there are few, if any, programs designed specifically for their needs.
+              </p>
+              <p>
+                The idea for LHOPE was sparked by the experience of a teenager suddenly left to care for her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations dedicated to her unique situation, she relied solely on friends and strangers for survival. Her story highlighted a widespread but overlooked challenge: when parents are incarcerated, teenagers are often left vulnerable and unsupported.
+              </p>
+              <p>
+                LHOPE exists to fill that void. By partnering with government agencies and organizations working with prisoners, we identify affected teenagers through official channels and, with consent, provide emotional, social, and economic support. Our approach is designed to restore dignity, opportunity, and hope—ensuring that no young person is forgotten when their parent's imprisonment threatens their future.
+              </p>
+              <p>
+                Today, LHOPE is working to build sustainable, community-driven programs in Kenya and beyond, with one clear mission: to break cycles of stigma and hardship, and to give every teenager the chance to thrive.
+              </p>
             </div>
           </div>
           <div className="relative">
@@ -207,7 +225,7 @@ const About = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="section-title mb-6 font-playfair">Meet Our Team</h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-12">Get to know the dedicated individuals who make LHOPE’s mission possible.</p>
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto mb-12">Get to know the dedicated individuals who make LHOPE's mission possible.</p>
 
           <div className="mb-16">
             <h3 className="text-4xl font-playfair font-light mb-8 text-gray-900">Board of Directors</h3>
@@ -245,8 +263,7 @@ const About = () => {
       </section>
 
       {/* Impact */}
-<section className="py-20 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-700 text-white">
-
+      <section className="py-20 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-playfair font-light mb-6">{t('about.impact_title')}</h2>
           <p className="text-xl opacity-90 max-w-3xl mx-auto mb-12">{t('about.impact_text')}</p>

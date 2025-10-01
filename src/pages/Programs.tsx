@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { Heart, Users, Lightbulb, Globe, ArrowRight, Clock, MapPin, Phone } from 'lucide-react';
+import { Heart, Users, Lightbulb, Globe, ArrowRight, Clock, MapPin, Phone, BookOpen } from 'lucide-react';
 
 const Programs = () => {
   const { t } = useTranslation();
@@ -13,10 +13,11 @@ const Programs = () => {
       description: t('programs.social_work_desc'),
       features: [
         'Individual counseling sessions',
-        'Family therapy support',
+        'Family therapy support (including reintegration support)',
         'Crisis intervention',
         'Trauma-informed care',
-        'Mental health resources'
+        'Mental health resources',
+        'Reintegration support services'
       ],
       image: 'https://images.pexels.com/photos/7551607/pexels-photo-7551607.jpeg?auto=compress&cs=tinysrgb&w=800',
       schedule: 'Monday - Friday, 9 AM - 5 PM',
@@ -39,22 +40,40 @@ const Programs = () => {
     },
     {
       icon: <Lightbulb className="h-12 w-12 text-[#FFD700]" />,
-      title: t('programs.empowerment'),
+      title: t('Empowerment Programs'),
       description: t('programs.empowerment_desc'),
       features: [
         'Leadership workshops',
         'Confidence building',
-        'Public speaking training',
+        'Vocational training (e.g., tailoring, IT, mechanics)',
+        'Financial literacy workshops',
+        'Internship & job placement programs',
+        'Small business/startup grants for youth initiatives',
         'Goal setting sessions',
         'Personal development'
       ],
-      image: 'https://images.pexels.com/photos/7551669/pexels-photo-7551669.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://images.pexels.com/photos/175760/pexels-photo-175760.jpeg',
       schedule: 'Weekends & Evenings',
       location: 'Community Centers'
     },
     {
+      icon: <BookOpen className="h-12 w-12 text-[#FFD700]" />,
+      title: t('Educational Programs'),
+      description: t('programs.educational_desc'),
+      features: [
+        'Tutoring & homework help',
+        'Literacy and numeracy support',
+        'Scholarships & school fee assistance',
+        'Digital learning tools access',
+        'Exam preparation workshops'
+      ],
+      image: 'https://images.pexels.com/photos/11025058/pexels-photo-11025058.jpeg',
+      schedule: 'After school & Weekends',
+      location: 'Schools & Learning Centers'
+    },
+    {
       icon: <Globe className="h-12 w-12 text-[#FFD700]" />,
-      title: t('programs.community'),
+      title: t('Community programs'),
       description: t('programs.community_desc'),
       features: [
         'Support groups',
@@ -79,8 +98,7 @@ const Programs = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-<section className="py-20 bg-yellow-600 text-white fade-in-up">
-
+      <section className="py-20 bg-yellow-600 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="section-title text-white mb-6">{t('programs.title')}</h1>
@@ -115,8 +133,8 @@ const Programs = () => {
                         <h3 className="text-xl font-semibold mb-4 text-[#FFD700]">Program Features:</h3>
                         <ul className="space-y-2">
                           {program.features.map((feature, featureIndex) => (
-                            <li key={featureIndex} className="flex items-center text-white">
-                              <ArrowRight className="h-4 w-4 text-[#FFD700] mr-2 flex-shrink-0" />
+                            <li key={featureIndex} className="flex items-start text-white">
+                              <ArrowRight className="h-4 w-4 text-[#FFD700] mr-2 flex-shrink-0 mt-1" />
                               {feature}
                             </li>
                           ))}
