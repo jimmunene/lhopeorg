@@ -36,7 +36,8 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2">
             <img
               src={Logo}
-              alt="Legacy of Hope Logo"
+              alt="Teens Anchor Initiative
+ Logo"
               className="h-10 w-auto object-contain"
             />
           </Link>

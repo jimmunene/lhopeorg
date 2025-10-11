@@ -501,7 +501,8 @@ const Donate = () => {
                   <div>
                     <h4 className="font-semibold text-green-800 mb-2">Tax Deductible</h4>
                     <p className="text-green-700 text-sm">
-                      Legacy of Hope is a 501(c)(3) nonprofit organization. 
+                      Teens Anchor Initiative
+ is a 501(c)(3) nonprofit organization. 
                       Your donation is tax-deductible to the full extent allowed by law. 
                       You will receive a tax receipt via email.
                     </p>
@@ -518,7 +519,8 @@ const Donate = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800">Mail a Check</h4>
                     <p className="text-gray-600">
-                      Legacy of Hope<br />
+                      Teens Anchor Initiative
+<br />
                       123 Hope Street, Suite 100<br />
                       New York, NY 10001
                     </p>
@@ -534,7 +536,8 @@ const Donate = () => {
                   <div>
                     <h4 className="font-semibold text-gray-800">Planned Giving</h4>
                     <p className="text-gray-600">
-                      Consider including Legacy of Hope in your will or estate planning.
+                      Consider including Teens Anchor Initiative
+ in your will or estate planning.
                     </p>
                   </div>
                 </div>

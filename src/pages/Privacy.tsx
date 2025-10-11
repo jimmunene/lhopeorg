@@ -47,7 +47,8 @@ const Privacy = () => {
                 <h2 className="text-3xl font-bold text-black m-0 font-serif">Introduction</h2>
               </div>
               <p className="text-neutral-600 leading-relaxed">
-                Legacy of Hope ("we," "our," or "us") is committed to protecting your privacy...
+                Teens Anchor Initiative
+ ("we," "our," or "us") is committed to protecting your privacy...
               </p>
             </div>
 
