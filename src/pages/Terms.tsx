@@ -2,7 +2,7 @@ import React from 'react';
 
 const Terms = () => (
   <div className="pt-20">
-    <section className="py-20 bg-gradient-to-r from-Teal-700 to-Teal-900 text-white fade-in-up">
+    <section className="py-20 bg-gradient-to-r from-blue-700 to-blue-900 text-white fade-in-up">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="section-title mb-6">Terms of Service</h1>
         <p className="text-lg mb-8 opacity-90">
@@ -22,7 +22,7 @@ const Terms = () => (
         <h2 className="text-2xl font-semibold mb-4">5. Changes to Terms</h2>
         <p className="mb-6">We may update these Terms at any time. Continued use of the site means you accept the new Terms.</p>
         <h2 className="text-2xl font-semibold mb-4">6. Contact</h2>
-        <p>If you have questions about these Terms, contact us at info@legacyofhope.org.</p>
+        <p>If you have questions about these Terms, contact us at info@teensanchornitiative.org.</p>
       </div>
     </section>
   </div>

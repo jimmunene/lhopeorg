@@ -19,8 +19,8 @@ const FAQ = () => {
     {
       id: '1',
       category: 'general',
-      question: 'What is Legacy of Hope?',
-      answer: 'Legacy of Hope is a nonprofit organization dedicated to supporting teenagers whose lives have been affected by the incarceration of family members. We provide comprehensive support through social work services, mentoring programs, empowerment initiatives, and community engagement activities.'
+      question: 'What is Teens Anchor Initiative?',
+      answer: 'Teens Anchor Initiative is a nonprofit organization dedicated to supporting teenagers whose lives have been affected by the incarceration of family members. We provide comprehensive support through social work services, mentoring programs, empowerment initiatives, and community engagement activities.'
     },
     {
       id: '2',
@@ -98,7 +98,7 @@ const FAQ = () => {
       id: '14',
       category: 'donation',
       question: 'Are donations tax-deductible?',
-      answer: 'Yes, Legacy of Hope is a registered 501(c)(3) nonprofit organization in the United States. All donations are tax-deductible to the full extent allowed by law. You will receive a tax receipt for your records after making a donation.'
+      answer: 'Yes, Teens Anchor Initiative is a registered 501(c)(3) nonprofit organization in the United States. All donations are tax-deductible to the full extent allowed by law. You will receive a tax receipt for your records after making a donation.'
     },
     {
       id: '15',
@@ -136,7 +136,7 @@ const FAQ = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-<section className="py-20 bg-gradient-to-r from-yellow-400 via-warm-gold to-yellow-600 text-white fade-in-up">
+<section className="py-20 bg-gradient-to-r from-red-400 via-warm-gold to-red-600 text-white fade-in-up">
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -145,7 +145,7 @@ const FAQ = () => {
             </h1>
             <p className="text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
               Find answers to common questions about our programs, services, and how 
-              Legacy of Hope supports teenagers affected by familial incarceration.
+              Teens Anchor Initiative supports teenagers affected by familial incarceration.
             </p>
           </div>
         </div>
@@ -163,7 +163,7 @@ const FAQ = () => {
                 placeholder="Search frequently asked questions..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500 text-lg"
+                className="w-full pl-12 pr-4 py-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg"
               />
             </div>
 
@@ -175,7 +175,7 @@ const FAQ = () => {
                   onClick={() => setSelectedCategory(category.id)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-colors duration-300 ${
                     selectedCategory === category.id
-                      ? 'bg-yellow-600 text-white'
+                      ? 'bg-red-600 text-white'
                       : 'bg-white text-gray-600 hover:bg-gray-100 border border-gray-300'
                   }`}
                 >
@@ -209,7 +209,7 @@ const FAQ = () => {
                 >
                   <button
                     onClick={() => toggleItem(item.id)}
-                    className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:ring-inset rounded-lg"
+                    className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-inset rounded-lg"
                     aria-expanded={openItems.includes(item.id)}
                     aria-controls={`faq-answer-${item.id}`}
                   >
@@ -246,7 +246,7 @@ const FAQ = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
             Still Have Questions?
           </h2>
-          <p className="text-xl text-yellow-600 mb-8">
+          <p className="text-xl text-red-600 mb-8">
             Can't find the answer you're looking for? Our team is here to help. 
             Reach out to us and we'll get back to you within 24 hours.
           </p>
@@ -258,7 +258,7 @@ const FAQ = () => {
               Contact Us
             </a>
             <a
-              href="mailto:info@legacyofhope.org"
+              href="mailto:info@teensanchornitiative.org"
               className="btn-secondary"
             >
               Email Us Directly

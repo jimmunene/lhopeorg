@@ -54,7 +54,7 @@ const CookiePreferences: React.FC<CookiePreferencesProps> = ({
     {
       id: 'functional' as keyof CookieSettings,
       title: 'Functional Cookies',
-      icon: <Cog className="h-6 w-6 text-Teal-600" />,
+      icon: <Cog className="h-6 w-6 text-blue-600" />,
       description: 'These cookies enable enhanced functionality and personalization features.',
       required: false,
       details: [
@@ -166,7 +166,7 @@ const CookiePreferences: React.FC<CookiePreferencesProps> = ({
                             className="sr-only"
                           />
                           <div className={`w-11 h-6 rounded-full transition-colors duration-300 ${
-                            settings[category.id] ? 'bg-Teal-600' : 'bg-gray-300'
+                            settings[category.id] ? 'bg-blue-600' : 'bg-gray-300'
                           }`}>
                             <div className={`w-4 h-4 bg-white rounded-full shadow transform transition-transform duration-300 ${
                               settings[category.id] ? 'translate-x-6' : 'translate-x-1'
@@ -207,17 +207,17 @@ const CookiePreferences: React.FC<CookiePreferencesProps> = ({
             </div>
 
             {/* Additional Information */}
-            <div className="mt-8 p-4 bg-Teal-50 border border-Teal-200 rounded-lg">
+            <div className="mt-8 p-4 bg-blue-50 border border-blue-200 rounded-lg">
               <div className="flex items-start space-x-3">
-                <AlertCircle className="h-5 w-5 text-Teal-600 mt-0.5 flex-shrink-0" />
+                <AlertCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
                 <div className="text-sm">
-                  <h4 className="font-medium text-Teal-800 mb-1">Your Privacy Matters</h4>
-                  <p className="text-Teal-700 mb-2">
+                  <h4 className="font-medium text-blue-800 mb-1">Your Privacy Matters</h4>
+                  <p className="text-blue-700 mb-2">
                     We are committed to protecting your privacy and using data responsibly to support 
                     teenagers affected by familial incarceration. All data collection serves our mission 
                     and helps us improve our services.
                   </p>
-                  <p className="text-Teal-700">
+                  <p className="text-blue-700">
                     You can change these preferences at any time by clicking the cookie settings 
                     link in our footer. For more information, read our{' '}
                     <Link to="/privacy" className="underline hover:no-underline">
@@ -249,7 +249,7 @@ const CookiePreferences: React.FC<CookiePreferencesProps> = ({
               </button>
               <button
                 onClick={onAccept}
-                className="px-6 py-2 bg-Teal-600 hover:bg-Teal-700 text-white rounded-lg transition-colors duration-300 flex items-center"
+                className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300 flex items-center"
               >
                 <Check className="h-4 w-4 mr-2" />
                 Save Preferences

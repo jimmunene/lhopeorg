@@ -66,8 +66,8 @@ const Contact = () => {
       icon: <Mail className="h-6 w-6" />,
       title: 'Email Us',
       details: [
-        'info@legacyofhope.org',
-        'programs@legacyofhope.org'
+        'info@teensanchornitiative.org',
+        'programs@teensanchornitiative.org'
       ]
     },
     {
@@ -99,7 +99,7 @@ const Contact = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-  <section className="py-20 bg-gradient-to-r from-yellow-600 to-yellow-600 text-white fade-in-up">
+  <section className="py-20 bg-gradient-to-r from-red-600 to-red-600 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="section-title text-white mb-6">
@@ -145,7 +145,7 @@ const Contact = () => {
                       {...register('name')}
                       type="text"
                       id="name"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors duration-300 ${
                         errors.name ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="Your full name"
@@ -163,7 +163,7 @@ const Contact = () => {
                       {...register('email')}
                       type="email"
                       id="email"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors duration-300 ${
                         errors.email ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="your.email@example.com"
@@ -181,7 +181,7 @@ const Contact = () => {
                       {...register('subject')}
                       type="text"
                       id="subject"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors duration-300 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors duration-300 ${
                         errors.subject ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="What is this regarding?"
@@ -199,7 +199,7 @@ const Contact = () => {
                       {...register('message')}
                       id="message"
                       rows={6}
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 transition-colors duration-300 resize-vertical ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 transition-colors duration-300 resize-vertical ${
                         errors.message ? 'border-red-300' : 'border-gray-300'
                       }`}
                       placeholder="Tell us how we can help you..."
@@ -246,7 +246,7 @@ const Contact = () => {
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={index} className="flex items-start space-x-4 p-6 bg-gray-50 rounded-lg">
-                    <div className="text-yellow-600 mt-1">
+                    <div className="text-red-600 mt-1">
                       {info.icon}
                     </div>
                     <div>
@@ -291,7 +291,7 @@ const Contact = () => {
           <div className="text-center">
             <h2 className="section-title mb-6">We're Here for You</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-              Legacy of Hope operates with offices and programs in both the United States 
+              Teens Anchor Initiative operates with offices and programs in both the United States 
               and Kenya, providing local support with a global perspective. Our doors are 
               always open to teens and families in need.
             </p>
@@ -304,7 +304,7 @@ const Contact = () => {
                   <p>123 Hope Street, Suite 100</p>
                   <p>New York, NY 10001</p>
                   <p>Phone: +1 (555) 123-4567</p>
-                  <p>Email: ny@legacyofhope.org</p>
+                  <p>Email: ny@teensanchornitiative.org</p>
                 </div>
               </div>
               
@@ -315,7 +315,7 @@ const Contact = () => {
                   <p>P.O. Box 12345</p>
                   <p>Nairobi, Kenya</p>
                   <p>Phone: +254 700 123 456</p>
-                  <p>Email: kenya@legacyofhope.org</p>
+                  <p>Email: kenya@teensanchornitiative.org</p>
                 </div>
               </div>
             </div>

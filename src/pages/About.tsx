@@ -78,7 +78,7 @@ const About = () => {
       description: t('about.values.compassion.description')
     },
     {
-      icon: <Users className="h-8 w-8 text-teal" />,
+      icon: <Users className="h-8 w-8 text-blue" />,
       title: t('about.values.community.title'),
       description: t('about.values.community.description')
     },
@@ -88,7 +88,7 @@ const About = () => {
       description: t('about.values.empowerment.description')
     },
     {
-      icon: <Globe className="h-8 w-8 text-teal-dark" />,
+      icon: <Globe className="h-8 w-8 text-blue-dark" />,
       title: t('about.values.inclusion.title'),
       description: t('about.values.inclusion.description')
     },
@@ -98,7 +98,7 @@ const About = () => {
       description: t('about.values.excellence.description')
     },
     {
-      icon: <BookOpen className="h-8 w-8 text-teal" />,
+      icon: <BookOpen className="h-8 w-8 text-blue" />,
       title: t('about.values.growth.title'),
       description: t('about.values.growth.description')
     }
@@ -107,7 +107,7 @@ const About = () => {
   return (
     <div className="pt-20 font-lato">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-700 text-white fade-in-up">
+      <section className="py-20 bg-gradient-to-r from-red-400 via-red-500 to-red-700 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="section-title text-white mb-6 font-playfair">
             {t('about.title')}
@@ -137,7 +137,7 @@ const About = () => {
                 Paullette Nyaga is a renowned professional fundraiser with a strong track record of mobilizing resources for pioneering NGOs across East Africa, including Dyslexia Tanzania and grassroots organizations in Kenya and Uganda. Her lifelong dedication to social impact is deeply personal, shaped by her own family's story. Paullette's father was supported through school by Plan International in Embu, while her mother received sponsorship from a donor linked to the Thomas Barnardo Home in Nairobi. This legacy of empowerment through NGO support inspired her passion to give back and create opportunities for others.
               </p>
               <p>
-                The spark for The Legacy of Hope (LHOPE) came from a painful chapter in Paullette's youth. Her closest friend, Diana, was forced to become the sole caretaker of her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations to turn to, Diana endured isolation, stigma, and economic hardship—relying only on the kindness of friends and strangers. Paullette stepped in to raise funds for her, and through that experience, she discovered a devastating gap: no government programs or NGOs existed to support teenagers left behind by incarceration.
+                The spark for The Teens Anchor Initiative (LHOPE) came from a painful chapter in Paullette's youth. Her closest friend, Diana, was forced to become the sole caretaker of her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations to turn to, Diana endured isolation, stigma, and economic hardship—relying only on the kindness of friends and strangers. Paullette stepped in to raise funds for her, and through that experience, she discovered a devastating gap: no government programs or NGOs existed to support teenagers left behind by incarceration.
               </p>
               <p>
                 LHOPE was born to fill that void. Working hand in hand with government agencies and prison-related organizations, we will identify vulnerable teenagers through official channels and, with consent, provide emotional, social, and economic support tailored to their needs. Our mission is to ensure that no young person is left forgotten or unsupported when their parent's imprisonment threatens to derail their future.
@@ -147,7 +147,7 @@ const About = () => {
               </p>
             </div>
             <p className="mt-6 text-gray-900 font-bold">Paullette Nyaga</p>
-            <p className="text-gray-600">Founder, The Legacy of Hope</p>
+            <p className="text-gray-600">Founder, The Teens Anchor Initiative</p>
           </div>
         </div>
       </section>
@@ -164,7 +164,7 @@ const About = () => {
           </div>
           <div className="card">
             <div className="flex items-center mb-6">
-              <Heart className="h-10 w-10 text-teal mr-4" />
+              <Heart className="h-10 w-10 text-blue mr-4" />
               <h2 className="text-3xl font-playfair font-bold text-gray-900">{t('about.vision_title')}</h2>
             </div>
             <p className="text-lg text-gray-700 leading-relaxed">{t('about.vision_text')}</p>
@@ -179,7 +179,7 @@ const About = () => {
             <h2 className="section-title mb-8 font-playfair">Our Story</h2>
             <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
               <p>
-                The Legacy of Hope (LHOPE) was created to address a critical gap in support for teenagers whose primary breadwinners have been incarcerated. Across many communities, these young people face stigma, isolation, and economic hardship—yet there are few, if any, programs designed specifically for their needs.
+                The Teens Anchor Initiative (LHOPE) was created to address a critical gap in support for teenagers whose primary breadwinners have been incarcerated. Across many communities, these young people face stigma, isolation, and economic hardship—yet there are few, if any, programs designed specifically for their needs.
               </p>
               <p>
                 The idea for LHOPE was sparked by the experience of a teenager suddenly left to care for her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations dedicated to her unique situation, she relied solely on friends and strangers for survival. Her story highlighted a widespread but overlooked challenge: when parents are incarcerated, teenagers are often left vulnerable and unsupported.
@@ -236,7 +236,7 @@ const About = () => {
                   <div key={index} className="card text-center">
                     <img src={member.image} alt={member.name} className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" />
                     <h4 className="text-xl font-semibold text-gray-900">{member.name}</h4>
-                    <p className="text-teal font-medium mb-2">{member.representation}</p>
+                    <p className="text-blue font-medium mb-2">{member.representation}</p>
                     <p className="text-gray-700 mb-2">{member.role}</p>
                     <p className="text-gray-600 text-sm">{member.bio}</p>
                   </div>
@@ -263,7 +263,7 @@ const About = () => {
       </section>
 
       {/* Impact */}
-      <section className="py-20 bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-red-400 via-red-500 to-red-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-5xl font-playfair font-light mb-6">{t('about.impact_title')}</h2>
           <p className="text-xl opacity-90 max-w-3xl mx-auto mb-12">{t('about.impact_text')}</p>

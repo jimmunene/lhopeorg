@@ -22,7 +22,7 @@ const WaysToHelp = () => {
       impact: 'Enables us to organize events and workshops for teens.'
     },
     {
-      icon: <Gift className="h-8 w-8 text-teal-500" />,
+      icon: <Gift className="h-8 w-8 text-blue-500" />,
       title: 'In-Kind Donations',
       description: 'Provide essential items and resources.',
       items: ['Books', 'Stationery', 'Sports equipment', 'Clothing'],
@@ -74,7 +74,7 @@ const WaysToHelp = () => {
     <div className="pt-20">
 
       {/* Hero Section */}
-      <section className="py-20 bg-yellow-600 text-white fade-in-up">
+      <section className="py-20 bg-red-600 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <img src={Logo} alt="LHOPE Logo" className="mx-auto mb-6 w-40 h-40 object-contain" />
           <p className="text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
@@ -106,7 +106,7 @@ const WaysToHelp = () => {
                     <h4 className="font-semibold text-gray-800 mb-2">Suggested Amounts:</h4>
                     <div className="flex flex-wrap gap-2">
                       {option.amounts.map((amt, idx) => (
-                        <button key={idx} className="px-3 py-1 border border-gray-300 rounded hover:border-teal-500 hover:text-teal-600">
+                        <button key={idx} className="px-3 py-1 border border-gray-300 rounded hover:border-blue-500 hover:text-blue-600">
                           {amt}
                         </button>
                       ))}
@@ -122,8 +122,8 @@ const WaysToHelp = () => {
                     ))}
                   </ul>
                 )}
-                <p className="text-teal-800 font-medium mb-4">💡 {option.impact}</p>
-                <Link to="/donate" className="bg-yellow-500 hover:bg-yellow-400 text-black px-6 py-2 rounded font-semibold w-full block text-center">
+                <p className="text-blue-800 font-medium mb-4">💡 {option.impact}</p>
+                <Link to="/donate" className="bg-red-500 hover:bg-red-400 text-black px-6 py-2 rounded font-semibold w-full block text-center">
                   {option.title === 'In-Kind Donations' ? 'Contact Us' : 'Donate Now'}
                 </Link>
               </div>
@@ -151,7 +151,7 @@ const WaysToHelp = () => {
                 <p className="text-gray-600 mb-4">{v.description}</p>
                 <div className="text-sm text-gray-600 mb-4">
                   <div className="flex items-center mb-1">
-                    <Clock className="h-4 w-4 text-teal-500 mr-2" /> <span className="font-medium">Commitment:</span> {v.commitment}
+                    <Clock className="h-4 w-4 text-blue-500 mr-2" /> <span className="font-medium">Commitment:</span> {v.commitment}
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-4 w-4 text-red-500 mr-2" /> <span className="font-medium">Location:</span> {v.location}
@@ -164,7 +164,7 @@ const WaysToHelp = () => {
                     </li>
                   ))}
                 </ul>
-                <Link to="/contact" className="bg-teal-500 hover:bg-teal-400 text-white px-6 py-2 rounded font-semibold w-full block text-center">
+                <Link to="/contact" className="bg-blue-500 hover:bg-blue-400 text-white px-6 py-2 rounded font-semibold w-full block text-center">
                   Apply to Volunteer
                 </Link>
               </div>
@@ -187,7 +187,7 @@ const WaysToHelp = () => {
             {partnershipTypes.map((p, idx) => (
               <div key={idx} className="card p-6 rounded-lg shadow-lg bg-white">
                 <div className="flex items-center mb-4">
-                  <Handshake className="h-8 w-8 text-teal-600" />
+                  <Handshake className="h-8 w-8 text-blue-600" />
                   <h3 className="text-2xl font-bold text-gray-800 ml-4">{p.title}</h3>
                 </div>
                 <p className="text-gray-600 mb-4">{p.description}</p>
@@ -207,12 +207,12 @@ const WaysToHelp = () => {
                   <h4 className="font-semibold text-gray-800 mb-2">Examples:</h4>
                   <div className="flex flex-wrap gap-2">
                     {p.examples.map((ex, i) => (
-                      <span key={i} className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm">{ex}</span>
+                      <span key={i} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">{ex}</span>
                     ))}
                   </div>
                 </div>
 
-                <Link to="/contact" className="bg-teal-500 hover:bg-teal-400 text-white px-6 py-2 rounded font-semibold w-full block text-center">
+                <Link to="/contact" className="bg-blue-500 hover:bg-blue-400 text-white px-6 py-2 rounded font-semibold w-full block text-center">
                   Explore Partnership
                 </Link>
               </div>
@@ -222,7 +222,7 @@ const WaysToHelp = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-teal-600">
+      <section className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-light mb-6 text-black">
             Ready to Make a Difference?
@@ -232,7 +232,7 @@ const WaysToHelp = () => {
             directly impacts the lives of teenagers who need it most.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/donate" className="bg-yellow-500 hover:bg-yellow-400 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <Link to="/donate" className="bg-red-500 hover:bg-red-400 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
               Donate Now
             </Link>
             <Link to="/contact" className="bg-transparent border-2 border-black text-black hover:bg-black hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">

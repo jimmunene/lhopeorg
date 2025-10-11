@@ -26,7 +26,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-teal-500 text-neutral-300 font-sans">
+    <footer className="bg-blue-500 text-neutral-300 font-sans">
       {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
@@ -37,20 +37,20 @@ const Footer = () => {
               {t('footer.mission')}
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/legacyofhope" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
-                 className="text-soft-teal hover:text-warm-gold transition-colors duration-300">
+              <a href="https://facebook.com/teensanchornitiative" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+                 className="text-soft-blue hover:text-warm-gold transition-colors duration-300">
                 <Facebook size={24} />
               </a>
-              <a href="https://x.com/legacyofhope" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"
-                 className="text-soft-teal hover:text-warm-gold transition-colors duration-300">
+              <a href="https://x.com/teensanchornitiative" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"
+                 className="text-soft-blue hover:text-warm-gold transition-colors duration-300">
                 <XIcon size={24} />
               </a>
-              <a href="https://instagram.com/legacyofhope" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
-                 className="text-soft-teal hover:text-warm-gold transition-colors duration-300">
+              <a href="https://instagram.com/teensanchornitiative" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+                 className="text-soft-blue hover:text-warm-gold transition-colors duration-300">
                 <Instagram size={24} />
               </a>
-              <a href="https://linkedin.com/company/legacyofhope" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
-                 className="text-soft-teal hover:text-warm-gold transition-colors duration-300">
+              <a href="https://linkedin.com/company/teensanchornitiative" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+                 className="text-soft-blue hover:text-warm-gold transition-colors duration-300">
                 <Linkedin size={24} />
               </a>
             </div>
@@ -73,27 +73,27 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-white font-serif">{t('footer.contact_info')}</h3>
             <div className="space-y-4 text-sm">
               <div className="flex items-start space-x-3">
-                <MapPin size={20} className="text-soft-teal mt-0.5" />
+                <MapPin size={20} className="text-soft-blue mt-0.5" />
                 <div>
                   <p className="text-white">United States Office</p>
                   <p className="text-neutral-300">123 Hope Street, Suite 100<br />New York, NY 10001</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin size={20} className="text-soft-teal mt-0.5" />
+                <MapPin size={20} className="text-soft-blue mt-0.5" />
                 <div>
                   <p className="text-white">Kenya Office</p>
                   <p className="text-neutral-300">P.O. Box 12345<br />Nairobi, Kenya</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail size={20} className="text-soft-teal" />
-                <a href="mailto:info@legacyofhope.org" className="hover:text-warm-gold transition-colors duration-300">
-                  info@legacyofhope.org
+                <Mail size={20} className="text-soft-blue" />
+                <a href="mailto:info@teensanchornitiative.org" className="hover:text-warm-gold transition-colors duration-300">
+                  info@teensanchornitiative.org
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone size={20} className="text-soft-teal" />
+                <Phone size={20} className="text-soft-blue" />
                 <span>+1 (419) 315-0132</span>
               </div>
             </div>
@@ -107,9 +107,9 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="w-full px-4 py-2 bg-neutral-800 border border-neutral-600 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-soft-teal"
+                className="w-full px-4 py-2 bg-neutral-800 border border-neutral-600 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-soft-blue"
               />
-              <button className="w-full bg-soft-teal hover:bg-warm-gold text-black font-medium py-2 rounded-lg transition-colors duration-300">
+              <button className="w-full bg-soft-blue hover:bg-warm-gold text-black font-medium py-2 rounded-lg transition-colors duration-300">
                 Subscribe
               </button>
             </div>
@@ -123,7 +123,7 @@ const Footer = () => {
             <>
               <button 
                 onClick={() => setShowTemplates(!showTemplates)} 
-                className="bg-soft-teal hover:bg-warm-gold text-black px-4 py-2 rounded-lg font-medium transition-colors duration-300"
+                className="bg-soft-blue hover:bg-warm-gold text-black px-4 py-2 rounded-lg font-medium transition-colors duration-300"
               >
                 Access Templates
               </button>
@@ -132,7 +132,7 @@ const Footer = () => {
                   <input 
                     type="password" 
                     placeholder="Enter password" 
-                    className="w-full px-4 py-2 bg-neutral-800 border border-neutral-600 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-soft-teal"
+                    className="w-full px-4 py-2 bg-neutral-800 border border-neutral-600 rounded-lg text-white placeholder-neutral-500 focus:outline-none focus:border-soft-blue"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
@@ -148,13 +148,13 @@ const Footer = () => {
           ) : (
             <div className="space-y-3">
               {/* ✅ Using imported PDFs */}
-              <a href={Template1} target="_blank" rel="noopener noreferrer" className="block text-soft-teal hover:text-warm-gold">
+              <a href={Template1} target="_blank" rel="noopener noreferrer" className="block text-soft-blue hover:text-warm-gold">
                 📄 Template 1
               </a>
-              <a href={Template2} target="_blank" rel="noopener noreferrer" className="block text-soft-teal hover:text-warm-gold">
+              <a href={Template2} target="_blank" rel="noopener noreferrer" className="block text-soft-blue hover:text-warm-gold">
                 📄 Template 2
               </a>
-              <a href={Template3} target="_blank" rel="noopener noreferrer" className="block text-soft-teal hover:text-warm-gold">
+              <a href={Template3} target="_blank" rel="noopener noreferrer" className="block text-soft-blue hover:text-warm-gold">
                 📄 Template 3
               </a>
             </div>

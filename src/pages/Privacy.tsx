@@ -24,11 +24,11 @@ const Privacy = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between text-sm text-neutral-500">
             <div className="flex items-center">
-              <Calendar className="h-4 w-4 mr-2 text-soft-teal" />
+              <Calendar className="h-4 w-4 mr-2 text-soft-blue" />
               Last updated: January 15, 2025
             </div>
             <div className="flex items-center">
-              <FileText className="h-4 w-4 mr-2 text-soft-teal" />
+              <FileText className="h-4 w-4 mr-2 text-soft-blue" />
               Version 2.1
             </div>
           </div>
@@ -43,7 +43,7 @@ const Privacy = () => {
             {/* Example Section (Introduction) */}
             <div className="mb-12">
               <div className="flex items-center mb-6">
-                <Shield className="h-8 w-8 text-soft-teal mr-4" />
+                <Shield className="h-8 w-8 text-soft-blue mr-4" />
                 <h2 className="text-3xl font-bold text-black m-0 font-serif">Introduction</h2>
               </div>
               <p className="text-neutral-600 leading-relaxed">
@@ -55,7 +55,7 @@ const Privacy = () => {
             {/* Example: Data Security Section */}
             <div className="mb-12">
               <div className="flex items-center mb-6">
-                <Lock className="h-8 w-8 text-soft-teal mr-4" />
+                <Lock className="h-8 w-8 text-soft-blue mr-4" />
                 <h2 className="text-3xl font-bold text-black m-0 font-serif">Data Security</h2>
               </div>
               <p className="text-neutral-600 leading-relaxed mb-6">
@@ -66,7 +66,7 @@ const Privacy = () => {
             {/* Example: Contact Section */}
             <div className="mb-12">
               <div className="flex items-center mb-6">
-                <Mail className="h-8 w-8 text-soft-teal mr-4" />
+                <Mail className="h-8 w-8 text-soft-blue mr-4" />
                 <h2 className="text-3xl font-bold text-black m-0 font-serif">Contact Us</h2>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -80,10 +80,10 @@ const Privacy = () => {
                 </div>
               </div>
 
-              <div className="bg-yellow-100 border border-yellow-300 rounded-lg p-6 mt-6">
+              <div className="bg-red-100 border border-red-300 rounded-lg p-6 mt-6">
                 <h4 className="font-semibold text-black mb-2">Data Protection Officer</h4>
                 <p className="text-neutral-700 text-sm">
-                  For privacy-related inquiries, contact our DPO at dpo@legacyofhope.org
+                  For privacy-related inquiries, contact our DPO at dpo@teensanchornitiative.org
                 </p>
               </div>
             </div>

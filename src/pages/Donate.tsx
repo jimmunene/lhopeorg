@@ -164,7 +164,7 @@ const Donate = () => {
                   </h3>
                   <div className="grid grid-cols-2 gap-4">
                     <label className={`cursor-pointer p-4 border-2 rounded-lg transition-colors duration-300 ${
-                      watchedFrequency === 'monthly' ? 'border-yellow-500 bg-Teal-50' : 'border-gray-300 hover:border-gray-400'
+                      watchedFrequency === 'monthly' ? 'border-red-500 bg-blue-50' : 'border-gray-300 hover:border-gray-400'
                     }`}>
                       <input
                         {...register('frequency')}
@@ -173,14 +173,14 @@ const Donate = () => {
                         className="sr-only"
                       />
                       <div className="text-center">
-                        <Calendar className="h-8 w-8 mx-auto mb-2 text-yellow-600" />
+                        <Calendar className="h-8 w-8 mx-auto mb-2 text-red-600" />
                         <div className="font-semibold">{t('donate.monthly')}</div>
                         <div className="text-sm text-gray-600">Ongoing support</div>
                       </div>
                     </label>
                     
                     <label className={`cursor-pointer p-4 border-2 rounded-lg transition-colors duration-300 ${
-                      watchedFrequency === 'onetime' ? 'border-yellow-500 bg-Teal-50' : 'border-gray-300 hover:border-gray-400'
+                      watchedFrequency === 'onetime' ? 'border-red-500 bg-blue-50' : 'border-gray-300 hover:border-gray-400'
                     }`}>
                       <input
                         {...register('frequency')}
@@ -210,7 +210,7 @@ const Donate = () => {
                         onClick={() => handleAmountSelect(amount)}
                         className={`p-3 border-2 rounded-lg font-semibold transition-colors duration-300 ${
                           selectedAmount === amount
-                            ? 'border-yellow-500 bg-Teal-50 text-yellow-700'
+                            ? 'border-red-500 bg-blue-50 text-red-700'
                             : 'border-gray-300 hover:border-gray-400 text-gray-700'
                         }`}
                       >
@@ -224,7 +224,7 @@ const Donate = () => {
                     onClick={() => handleAmountSelect('custom')}
                     className={`w-full p-3 border-2 rounded-lg font-semibold transition-colors duration-300 ${
                       selectedAmount === 'custom'
-                        ? 'border-Teal-500 bg-Teal-50 text-yellow-600'
+                        ? 'border-blue-500 bg-blue-50 text-red-600'
                         : 'border-gray-300 hover:border-gray-400 text-gray-700'
                     }`}
                   >
@@ -241,7 +241,7 @@ const Donate = () => {
                           min="1"
                           step="0.01"
                           placeholder="0.00"
-                          className={`w-full pl-8 pr-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 ${
+                          className={`w-full pl-8 pr-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 ${
                             errors.customAmount ? 'border-red-300' : 'border-gray-300'
                           }`}
                         />
@@ -272,7 +272,7 @@ const Donate = () => {
                         {...register('firstName')}
                         type="text"
                         id="firstName"
-                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 ${
+                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 ${
                           errors.firstName ? 'border-red-300' : 'border-gray-300'
                         }`}
                       />
@@ -289,7 +289,7 @@ const Donate = () => {
                         {...register('lastName')}
                         type="text"
                         id="lastName"
-                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 ${
+                        className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 ${
                           errors.lastName ? 'border-red-300' : 'border-gray-300'
                         }`}
                       />
@@ -307,7 +307,7 @@ const Donate = () => {
                       {...register('email')}
                       type="email"
                       id="email"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 ${
                         errors.email ? 'border-red-300' : 'border-gray-300'
                       }`}
                     />
@@ -324,7 +324,7 @@ const Donate = () => {
                       {...register('phone')}
                       type="tel"
                       id="phone"
-                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 ${
+                      className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 ${
                         errors.phone ? 'border-red-300' : 'border-gray-300'
                       }`}
                     />
@@ -346,7 +346,7 @@ const Donate = () => {
                       id="cardNumber"
                       name="cardNumber"
                       placeholder="1234 5678 9012 3456"
-                      className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500"
+                      className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       pattern="^(4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14})$"
                       maxLength={19}
                       autoComplete="cc-number"
@@ -364,7 +364,7 @@ const Donate = () => {
                         id="expiry"
                         name="expiry"
                         placeholder="MM/YY"
-                        className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500"
+                        className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                         maxLength={5}
                         autoComplete="cc-exp"
                         inputMode="numeric"
@@ -379,7 +379,7 @@ const Donate = () => {
                         id="cvv"
                         name="cvv"
                         placeholder="123"
-                        className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-Teal-500 focus:border-Teal-500"
+                        className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                         maxLength={4}
                         autoComplete="cc-csc"
                         inputMode="numeric"
@@ -395,7 +395,7 @@ const Donate = () => {
                     <input
                       {...register('anonymous')}
                       type="checkbox"
-                      className="rounded border-gray-300 text-Teal-600 focus:ring-Teal-500"
+                      className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                     />
                     <span className="ml-2 text-sm text-gray-700">
                       Make this donation anonymous
@@ -406,7 +406,7 @@ const Donate = () => {
                     <input
                       {...register('newsletter')}
                       type="checkbox"
-                      className="rounded border-gray-300 text-Teal-600 focus:ring-Teal-500"
+                      className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                     />
                     <span className="ml-2 text-sm text-gray-700">
                       Subscribe to our newsletter for updates on our impact
@@ -444,12 +444,12 @@ const Donate = () => {
             {/* Impact Summary */}
             <div className="space-y-8">
               {/* Current Impact */}
-              <div className="card bg-Teal-50 border-Teal-200">
-                <h3 className="text-2xl font-bold text-Teal-800 mb-4">
+              <div className="card bg-blue-50 border-blue-200">
+                <h3 className="text-2xl font-bold text-blue-800 mb-4">
                   Your Impact: ${getCurrentAmount()}
                   {watchedFrequency === 'monthly' && <span className="text-lg font-normal">/month</span>}
                 </h3>
-                <p className="text-Teal-700 text-lg leading-relaxed">
+                <p className="text-blue-700 text-lg leading-relaxed">
                   {getCurrentImpact()}
                 </p>
               </div>
@@ -469,7 +469,7 @@ const Donate = () => {
                   </div>
                   
                   <div className="flex items-start space-x-3">
-                    <Users className="h-6 w-6 text-Teal-600 mt-1 flex-shrink-0" />
+                    <Users className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <h4 className="font-semibold text-gray-800">Mentorship Programs</h4>
                       <p className="text-gray-600 text-sm">One-on-one guidance and peer support groups</p>

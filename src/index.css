@@ -27,7 +27,7 @@
 :root {
   --black-1: #000000;
   --gold-1: #FFC857;
-  --teal-1: #4DB6AC;
+  --blue-1: #4DB6AC;
   --grey-light: #F5F5F5;
   --grey-dark: #B0B0B0;
 }
@@ -62,7 +62,7 @@
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 400;
     line-height: 1.2;
-    color: var(--teal-1);
+    color: var(--blue-1);
   }
   
   .btn-primary {
@@ -70,11 +70,11 @@
   }
   
   .btn-secondary {
-    @apply bg-transparent border-2 border-teal-600 text-teal-600 hover:bg-teal-600 hover:text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105;
+    @apply bg-transparent border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 transform hover:scale-105;
   }
   
   .btn-donate {
-    @apply bg-[var(--gold-1)] hover:bg-yellow-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
+    @apply bg-[var(--gold-1)] hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl;
   }
   
   .card {
@@ -94,13 +94,13 @@
 
 .custom-black { color: var(--black-1); }
 .custom-gold { color: var(--gold-1); }
-.custom-teal { color: var(--teal-1); }
+.custom-blue { color: var(--blue-1); }
 .custom-grey-light { background-color: var(--grey-light); }
 .custom-grey-dark { color: var(--grey-dark); }
 
 .bg-custom-black { background-color: var(--black-1); }
 .bg-custom-gold { background-color: var(--gold-1); }
-.bg-custom-teal { background-color: var(--teal-1); }
+.bg-custom-blue { background-color: var(--blue-1); }
 .bg-custom-grey-light { background-color: var(--grey-light); }
 .bg-custom-grey-dark { background-color: var(--grey-dark); }
 
@@ -119,7 +119,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--teal-1);
+  background: var(--blue-1);
   border-radius: 4px;
 }
 

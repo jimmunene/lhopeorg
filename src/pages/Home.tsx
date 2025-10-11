@@ -15,13 +15,13 @@ const Home = () => {
 
   const impactAreas = [
     {
-      icon: <Heart className="h-12 w-12 text-teal-500" />,
+      icon: <Heart className="h-12 w-12 text-blue-500" />,
       title: 'Emotional Support',
       description:
         'Professional counseling and peer support groups to help teens process their experiences and build resilience.',
     },
     {
-      icon: <Users className="h-12 w-12 text-yellow-400" />,
+      icon: <Users className="h-12 w-12 text-red-400" />,
       title: 'Community Connection',
       description:
         'Creating safe spaces where teens can connect with others who understand their unique challenges.',
@@ -45,7 +45,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center fade-in-up font-[Montserrat]">
         <div
-          className="absolute inset-0 bg-teal-400 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-blue-500 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: 'url("/assets/Hero.png")',
           }}
@@ -63,7 +63,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-6 justify-center fade-in-up delay-3">
             <Link
               to="/donate"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-red-400 hover:bg-red-500 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               {t('hero.cta_primary')}
             </Link>
@@ -88,7 +88,7 @@ const Home = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-5xl font-bold text-teal-500 mb-4">
+                <div className="text-5xl font-bold text-blue-500 mb-4">
                   {stat.number}
                 </div>
                 <div className="text-black font-medium">{stat.label}</div>
@@ -127,7 +127,7 @@ const Home = () => {
       </section>
 
       {/* Mission Statement */}
-      <section className="py-24 bg-teal-400 text-white fade-in-up delay-4">
+      <section className="py-24 bg-blue-400 text-white fade-in-up delay-4">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -139,7 +139,7 @@ const Home = () => {
               </p>
               <Link
                 to="/about"
-                className="inline-flex items-center text-yellow-400 hover:text-yellow-200 font-semibold text-lg group"
+                className="inline-flex items-center text-red-400 hover:text-red-200 font-semibold text-lg group"
               >
                 Learn About Our Mission
                 <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform duration-300" />
@@ -179,7 +179,7 @@ const Home = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-teal-500 to-black text-white fade-in-up delay-4">
+      <section className="py-20 bg-gradient-to-r from-blue-500 to-black text-white fade-in-up delay-4">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-light mb-6 font-[Playfair_Display]">
             Ready to Make an Impact?
@@ -190,7 +190,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/donate"
-              className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+              className="bg-red-400 hover:bg-red-500 text-black px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               Donate Today
             </Link>
@@ -229,7 +229,7 @@ const Home = () => {
               ].map((doc, i) => (
                 <div key={i} className="flex-shrink-0 w-64 bg-white p-4 rounded-lg shadow-md">
                   <h3 className="text-lg font-semibold mb-2">{doc}</h3>
-                  <a href="#" className="text-teal-500 hover:underline">
+                  <a href="#" className="text-blue-500 hover:underline">
                     View Document
                   </a>
                 </div>

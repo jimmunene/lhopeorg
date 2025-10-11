@@ -98,7 +98,7 @@ const Programs = () => {
   return (
     <div className="pt-20">
       {/* Hero Section */}
-      <section className="py-20 bg-yellow-600 text-white fade-in-up">
+      <section className="py-20 bg-red-600 text-white fade-in-up">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="section-title text-white mb-6">{t('programs.title')}</h1>
@@ -142,7 +142,7 @@ const Programs = () => {
                       </div>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-white">
                         <div className="flex items-center">
-                          <Clock className="h-4 w-4 text-teal-400 mr-2" />
+                          <Clock className="h-4 w-4 text-blue-400 mr-2" />
                           {program.schedule}
                         </div>
                         <div className="flex items-center">
@@ -152,7 +152,7 @@ const Programs = () => {
                       </div>
                       <Link 
                         to="/contact"
-                        className="inline-flex items-center text-teal-400 hover:text-[#FFD700] font-semibold group mt-4"
+                        className="inline-flex items-center text-blue-400 hover:text-[#FFD700] font-semibold group mt-4"
                       >
                         Learn More About This Program
                         <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform duration-300" />
@@ -207,21 +207,21 @@ const Programs = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="card text-center bg-[#111111] p-6 rounded-xl shadow-lg">
-              <div className="w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Phone className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-[#FFD700]">1. Contact Us</h3>
               <p className="text-white">Reach out via phone, email, or our contact form to schedule an initial conversation.</p>
             </div>
             <div className="card text-center bg-[#111111] p-6 rounded-xl shadow-lg">
-              <div className="w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-[#FFD700]">2. Assessment</h3>
               <p className="text-white">We'll work together to understand your needs and identify the best program fit.</p>
             </div>
             <div className="card text-center bg-[#111111] p-6 rounded-xl shadow-lg">
-              <div className="w-16 h-16 bg-teal-500 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Heart className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-4 text-[#FFD700]">3. Get Started</h3>
@@ -230,7 +230,7 @@ const Programs = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/contact" className="inline-block px-8 py-4 bg-[#FFD700] text-black font-semibold rounded-lg hover:bg-teal-500 hover:text-white transition">
+            <Link to="/contact" className="inline-block px-8 py-4 bg-[#FFD700] text-black font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition">
               Start Your Journey Today
             </Link>
           </div>
