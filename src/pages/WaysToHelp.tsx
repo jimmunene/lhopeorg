@@ -78,7 +78,7 @@ const WaysToHelp = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <img src={Logo} alt="LHOPE Logo" className="mx-auto mb-6 w-40 h-40 object-contain" />
           <p className="text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
-            Welcome to LHOPE, where your support changes lives.
+            Welcome to Teens Anchor Initative, where your support changes lives.
           </p>
         </div>
       </section>

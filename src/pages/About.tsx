@@ -182,13 +182,13 @@ const About = () => {
                 The Teens Anchor Initiative (TAI) was created to address a critical gap in support for teenagers whose primary breadwinners have been incarcerated. Across many communities, these young people face stigma, isolation, and economic hardship—yet there are few, if any, programs designed specifically for their needs.
               </p>
               <p>
-                The idea for LHOPE was sparked by the experience of a teenager suddenly left to care for her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations dedicated to her unique situation, she relied solely on friends and strangers for survival. Her story highlighted a widespread but overlooked challenge: when parents are incarcerated, teenagers are often left vulnerable and unsupported.
+                The idea for (TAI) was sparked by the experience of a teenager suddenly left to care for her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations dedicated to her unique situation, she relied solely on friends and strangers for survival. Her story highlighted a widespread but overlooked challenge: when parents are incarcerated, teenagers are often left vulnerable and unsupported.
               </p>
               <p>
-                LHOPE exists to fill that void. By partnering with government agencies and organizations working with prisoners, we identify affected teenagers through official channels and, with consent, provide emotional, social, and economic support. Our approach is designed to restore dignity, opportunity, and hope—ensuring that no young person is forgotten when their parent's imprisonment threatens their future.
+                (TAI) exists to fill that void. By partnering with government agencies and organizations working with prisoners, we identify affected teenagers through official channels and, with consent, provide emotional, social, and economic support. Our approach is designed to restore dignity, opportunity, and hope—ensuring that no young person is forgotten when their parent's imprisonment threatens their future.
               </p>
               <p>
-                Today, LHOPE is working to build sustainable, community-driven programs in Kenya and beyond, with one clear mission: to break cycles of stigma and hardship, and to give every teenager the chance to thrive.
+                Today, (TAI) is working to build sustainable, community-driven programs in Kenya and beyond, with one clear mission: to break cycles of stigma and hardship, and to give every teenager the chance to thrive.
               </p>
             </div>
           </div>

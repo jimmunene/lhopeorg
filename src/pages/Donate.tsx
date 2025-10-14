@@ -521,8 +521,8 @@ const Donate = () => {
                     <p className="text-gray-600">
                       Teens Anchor Initiative
 <br />
-                      123 Hope Street, Suite 100<br />
-                      New York, NY 10001
+                      928 Robinwood LN<br />
+                      Bowling Green, OH 43402
                     </p>
                   </div>
                   

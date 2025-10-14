@@ -82,8 +82,8 @@ const Contact = () => {
       icon: <MapPin className="h-6 w-6" />,
       title: 'Visit Us',
       details: [
-        'New York: 123 Hope Street, Suite 100, NY 10001',
-        'Nairobi: P.O. Box 12345, Nairobi, Kenya'
+        'Bowling Green: 928 Robinwood LN, Bowling Green, OH 43402',
+        'Nairobi: P.O. Box 8745, Nairobi, Kenya'
       ]
     },
     {
@@ -301,10 +301,10 @@ const Contact = () => {
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">United States</h3>
                 <div className="space-y-2 text-gray-600">
                   <p className="font-medium">New York Headquarters</p>
-                  <p>123 Hope Street, Suite 100</p>
-                  <p>New York, NY 10001</p>
-                  <p>Phone: +1 (555) 123-4567</p>
-                  <p>Email: ny@teensanchornitiative.org</p>
+                  <p>928 Robinwood LN,</p>
+                  <p>Bowling Green, OH 43402</p>
+                  <p>Phone: +1 (419) 315-0132</p>
+                  <p>Email: support@teensanchornitiative.org</p>
                 </div>
               </div>
               
@@ -312,7 +312,7 @@ const Contact = () => {
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Kenya</h3>
                 <div className="space-y-2 text-gray-600">
                   <p className="font-medium">Nairobi Office</p>
-                  <p>P.O. Box 12345</p>
+                  <p>P.O. Box 8745</p>
                   <p>Nairobi, Kenya</p>
                   <p>Phone: +254 700 123 456</p>
                   <p>Email: kenya@teensanchornitiative.org</p>

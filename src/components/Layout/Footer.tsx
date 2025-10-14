@@ -76,14 +76,14 @@ const Footer = () => {
                 <MapPin size={20} className="text-soft-blue mt-0.5" />
                 <div>
                   <p className="text-white">United States Office</p>
-                  <p className="text-neutral-300">123 Hope Street, Suite 100<br />New York, NY 10001</p>
+                  <p className="text-neutral-300">928 Robinwood LN<br />Bowling Green, OH 43402</p>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin size={20} className="text-soft-blue mt-0.5" />
                 <div>
                   <p className="text-white">Kenya Office</p>
-                  <p className="text-neutral-300">P.O. Box 12345<br />Nairobi, Kenya</p>
+                  <p className="text-neutral-300">P.O. Box 8745<br />Nairobi, Kenya</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
