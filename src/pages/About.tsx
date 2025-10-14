@@ -140,14 +140,14 @@ const About = () => {
                 The spark for The Teens Anchor Initiative (TAI) came from a painful chapter in Paullette's youth. Her closest friend, Diana, was forced to become the sole caretaker of her siblings after both parents were imprisoned over a land dispute. With no safety nets or organizations to turn to, Diana endured isolation, stigma, and economic hardship—relying only on the kindness of friends and strangers. Paullette stepped in to raise funds for her, and through that experience, she discovered a devastating gap: no government programs or NGOs existed to support teenagers left behind by incarceration.
               </p>
               <p>
-                LHOPE was born to fill that void. Working hand in hand with government agencies and prison-related organizations, we will identify vulnerable teenagers through official channels and, with consent, provide emotional, social, and economic support tailored to their needs. Our mission is to ensure that no young person is left forgotten or unsupported when their parent's imprisonment threatens to derail their future.
+                TAI was born to fill that void. Working hand in hand with government agencies and prison-related organizations, we identified vulnerable teenagers through official channels and got consent, to provide emotional, social, and economic support tailored to their needs. Our mission is to ensure that no young person is left forgotten or unsupported when their parent's imprisonment threatens to derail their future.
               </p>
               <p>
-                Paullette's vision is bold yet simple: to break cycles of stigma and hardship by restoring dignity, opportunity, and hope to teenagers living through one of life's toughest challenges. With the support of donors and partners, LHOPE is committed to building a future where every teenager—no matter their circumstance—has the chance to thrive.
+                Paullette's vision is bold yet simple: to break cycles of stigma and hardship by restoring dignity, opportunity, and hope to teenagers living through one of life's toughest challenges. With the support of donors and partners, TAI is committed to building a future where every teenager—no matter their circumstance—has the chance to thrive.
               </p>
             </div>
             <p className="mt-6 text-gray-900 font-bold">Paullette Nyaga</p>
-            <p className="text-gray-600">Founder, The Teens Anchor Initiative</p>
+            <p className="text-gray-600">Founder, Teens Anchor Initiative</p>
           </div>
         </div>
       </section>
