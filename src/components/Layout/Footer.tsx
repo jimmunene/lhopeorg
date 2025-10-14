@@ -89,7 +89,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <Mail size={20} className="text-soft-blue" />
                 <a href="mailto:info@teensanchornitiative.org" className="hover:text-warm-gold transition-colors duration-300">
-                  info@teensanchornitiative.org
+                  info@teensanchorinitiative.org
                 </a>
               </div>
               <div className="flex items-center space-x-3">
